@@ -21,6 +21,20 @@ const menuItems = [
     titleKey: 'categoryReactionGameColorTap',
     descKey: 'colorTapSetupHint',
   },
+  {
+    id: 'readArticle',
+    icon: '📖',
+    routePath: RoutePaths.readArticle,
+    titleKey: 'readArticleTitle',
+    descKey: 'readArticleHomeDescription',
+  },
+  {
+    id: 'phoneBalance',
+    icon: '⚖️',
+    routePath: RoutePaths.phoneBalance,
+    titleKey: 'phoneBalanceTitle',
+    descKey: 'phoneBalanceHomeDescription',
+  },
 ] as const
 
 const router = useRouter()
@@ -40,17 +54,30 @@ function openSettings() {
       <span class="app-bar__action" aria-hidden="true" />
       <h1 class="app-bar__title">{{ t('appTitle') }}</h1>
       <button
-        class="app-bar__action"
+        class="app-bar__action app-bar__settings"
         type="button"
         :aria-label="t('settingsTitle')"
         @click="openSettings"
       >
-        ⚙️
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <path
+            d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"
+          />
+          <circle cx="12" cy="12" r="3" />
+        </svg>
       </button>
     </header>
 
     <main class="app-main">
-      <h2 class="section-title">{{ t('homeMenuSection') }}</h2>
       <ul class="menu-list">
         <li v-for="item in menuItems" :key="item.id">
           <RouterLink
@@ -72,6 +99,12 @@ function openSettings() {
 </template>
 
 <style scoped>
+.app-bar__settings svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+}
+
 .menu-item--senior .menu-item__title {
   font-size: 1.2rem;
 }

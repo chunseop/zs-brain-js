@@ -147,9 +147,12 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <SplitChoiceGameShell :senior-mode="seniorMode" @back="handleBack">
+  <SplitChoiceGameShell
+    :title="t('categoryMathGameNumberCompare')"
+    :senior-mode="seniorMode"
+    @back="handleBack"
+  >
     <section v-if="phase === 'setup'" class="nc-setup">
-      <h1 class="nc-setup__title">{{ t('categoryMathGameNumberCompare') }}</h1>
       <p class="nc-setup__hint">{{ t('numberCompareRuleHint') }}</p>
       <button class="nc-setup__start" type="button" @click="startSession">
         {{ t('numberCompareStart') }}
@@ -229,15 +232,9 @@ onBeforeUnmount(() => {
   display: grid;
   place-content: center;
   gap: 1rem;
-  min-height: 100vh;
-  padding: 5rem 1.5rem 2rem;
+  min-height: calc(100vh - 4rem);
+  padding: 2rem 1.5rem;
   text-align: center;
-}
-
-.nc-setup__title {
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: 800;
 }
 
 .nc-setup__hint {
@@ -248,14 +245,14 @@ onBeforeUnmount(() => {
 
 .nc-setup__start {
   justify-self: center;
-  min-width: 10rem;
-  min-height: 3rem;
-  padding: 0.75rem 1.5rem;
-  border: 0;
-  border-radius: 999px;
+  min-width: 9rem;
+  min-height: 2.75rem;
+  padding: 0.55rem 1.25rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 9px;
   background: var(--color-primary);
   color: var(--color-on-primary);
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
 }
@@ -263,8 +260,8 @@ onBeforeUnmount(() => {
 .nc-play {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  padding: 4.5rem 0 0;
+  min-height: calc(100vh - 4rem);
+  padding: 3.5rem 0 0;
 }
 
 .nc-panels {

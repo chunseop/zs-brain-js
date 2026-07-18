@@ -26,12 +26,17 @@ function mountHome() {
 }
 
 describe('HomeView', () => {
-  it('shows the two simplified game entries in Chinese', () => {
+  it('shows the simplified game entries in Chinese', () => {
     setActivePinia(createPinia())
     const wrapper = mountHome()
 
     expect(wrapper.text()).toContain('大小比较')
     expect(wrapper.text()).toContain('颜色点击')
+    expect(wrapper.text()).toContain('文章阅读')
+    expect(wrapper.text()).toContain('平衡控制')
+    expect(wrapper.text().indexOf('文章阅读')).toBeLessThan(
+      wrapper.text().indexOf('平衡控制'),
+    )
     expect(wrapper.text()).not.toContain('今日训练')
     expect(wrapper.text()).not.toContain('分类训练')
     expect(wrapper.text()).not.toContain('训练日历')

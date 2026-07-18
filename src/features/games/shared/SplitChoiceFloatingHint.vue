@@ -22,7 +22,7 @@ defineProps<{
 <style scoped>
 .floating-hint {
   position: fixed;
-  top: max(4.25rem, calc(env(safe-area-inset-top) + 3.5rem));
+  top: max(5.5rem, calc(env(safe-area-inset-top) + 5rem));
   left: 50%;
   z-index: 15;
   width: min(28rem, calc(100vw - 1.5rem));

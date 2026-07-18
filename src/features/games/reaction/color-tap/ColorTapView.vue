@@ -153,9 +153,12 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <SplitChoiceGameShell :senior-mode="seniorMode" @back="handleBack">
+  <SplitChoiceGameShell
+    :title="t('categoryReactionGameColorTap')"
+    :senior-mode="seniorMode"
+    @back="handleBack"
+  >
     <section v-if="phase === 'setup'" class="color-tap-setup">
-      <h1 class="color-tap-setup__title">{{ t('categoryReactionGameColorTap') }}</h1>
       <p class="color-tap-setup__hint">{{ t('colorTapSetupHint') }}</p>
       <button class="color-tap-setup__start" type="button" @click="startSession">
         {{ t('colorTapStart') }}
@@ -235,15 +238,9 @@ onBeforeUnmount(() => {
   display: grid;
   place-content: center;
   gap: 1rem;
-  min-height: 100vh;
-  padding: 5rem 1.5rem 2rem;
+  min-height: calc(100vh - 4rem);
+  padding: 2rem 1.5rem;
   text-align: center;
-}
-
-.color-tap-setup__title {
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: 800;
 }
 
 .color-tap-setup__hint {
@@ -254,14 +251,14 @@ onBeforeUnmount(() => {
 
 .color-tap-setup__start {
   justify-self: center;
-  min-width: 10rem;
-  min-height: 3rem;
-  padding: 0.75rem 1.5rem;
-  border: 0;
-  border-radius: 999px;
+  min-width: 9rem;
+  min-height: 2.75rem;
+  padding: 0.55rem 1.25rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 9px;
   background: var(--color-primary);
   color: var(--color-on-primary);
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
 }
@@ -269,8 +266,8 @@ onBeforeUnmount(() => {
 .color-tap-play {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  padding: 4.5rem 0 0;
+  min-height: calc(100vh - 4rem);
+  padding: 3.5rem 0 0;
 }
 
 .color-tap-panels {

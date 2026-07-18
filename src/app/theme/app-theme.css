@@ -99,12 +99,14 @@ select {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 2.75rem;
-  min-height: 2.75rem;
+  min-width: 3.25rem;
+  min-height: 3.25rem;
   border: 0;
   border-radius: 999px;
   background: transparent;
   color: inherit;
+  font-size: 1.75rem;
+  line-height: 1;
   cursor: pointer;
 }
 

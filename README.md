@@ -11,7 +11,6 @@ Simplified Vue rewrite of the Flutter [zs-brain](https://github.com/) brain-trai
 | Routing | Vue Router |
 | i18n | vue-i18n (zh / en / ko) |
 | Preferences | @capacitor/preferences |
-| Scoring | `packages/scoring` (TypeScript port of Flutter `packages/scoring`) |
 | Mobile packaging | Capacitor (iOS / Android) |
 
 ## Prerequisites
@@ -25,7 +24,7 @@ Simplified Vue rewrite of the Flutter [zs-brain](https://github.com/) brain-trai
 npm install
 npm run dev          # local dev server
 npm run build        # production build to dist/
-npm run test:unit    # Vitest (app + scoring package)
+npm run test:unit    # Vitest
 npm run lint         # oxlint + eslint
 ./scripts/verify.sh  # lint + test + build
 ```
@@ -52,8 +51,6 @@ src/
   core/         # storage, auth stub
   features/     # home, settings, games (number-compare, color-tap)
   locales/      # vue-i18n messages
-packages/
-  scoring/      # pure scoring logic
 ```
 
 Routes: `/`, `/settings`, `/games/number-compare`, `/games/color-tap`.
@@ -66,7 +63,6 @@ Routes: `/`, `/settings`, `/games/number-compare`, `/games/color-tap`.
 | `go_router` | Vue Router (`src/app/router`) |
 | `AppLocalizations` + ARB | `src/locales/*.json` |
 | `SharedPreferences` | Capacitor Preferences |
-| `packages/scoring` (Dart) | `packages/scoring` (TS) |
 
 ## Senior mode
 

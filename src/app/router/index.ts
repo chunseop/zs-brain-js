@@ -25,6 +25,16 @@ const router = createRouter({
       name: RouteNames.colorTap,
       component: () => import('@/features/games/reaction/color-tap/ColorTapView.vue'),
     },
+    {
+      path: RoutePaths.phoneBalance,
+      name: RouteNames.phoneBalance,
+      component: () => import('@/features/games/motor/phone-balance/PhoneBalanceView.vue'),
+    },
+    {
+      path: RoutePaths.readArticle,
+      name: RouteNames.readArticle,
+      component: () => import('@/features/games/language/read-article/ReadArticleView.vue'),
+    },
   ],
 })
 

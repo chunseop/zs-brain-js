@@ -3,6 +3,8 @@ export const RouteNames = {
   settings: 'settings',
   numberCompare: 'numberCompare',
   colorTap: 'colorTap',
+  phoneBalance: 'phoneBalance',
+  readArticle: 'readArticle',
 } as const
 
 export const RoutePaths = {
@@ -10,4 +12,6 @@ export const RoutePaths = {
   settings: '/settings',
   numberCompare: '/games/number-compare',
   colorTap: '/games/color-tap',
+  phoneBalance: '/games/phone-balance',
+  readArticle: '/games/read-article',
 } as const

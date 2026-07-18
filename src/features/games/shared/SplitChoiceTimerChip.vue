@@ -12,7 +12,7 @@ defineProps<{
 <style scoped>
 .split-timer {
   position: fixed;
-  top: max(0.5rem, env(safe-area-inset-top));
+  top: max(4.75rem, calc(env(safe-area-inset-top) + 4.25rem));
   left: 50%;
   z-index: 15;
   margin: 0;

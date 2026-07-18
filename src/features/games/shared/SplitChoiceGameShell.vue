@@ -3,6 +3,7 @@ import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 
 defineProps<{
+  title: string
   seniorMode: boolean
 }>()
 
@@ -20,51 +21,44 @@ function handleBack() {
 </script>
 
 <template>
-  <div class="split-shell" :class="{ 'split-shell--senior': seniorMode }">
-    <slot />
-    <button
-      class="split-shell__back"
-      type="button"
-      :aria-label="t('back')"
-      @click="handleBack"
-    >
-      ←
-    </button>
+  <div class="app-shell split-shell" :class="{ 'split-shell--senior': seniorMode }">
+    <header class="app-bar">
+      <button class="app-bar__back" type="button" :aria-label="t('back')" @click="handleBack">
+        ←
+      </button>
+      <h1 class="app-bar__title">{{ title }}</h1>
+      <span class="app-bar__action" aria-hidden="true" />
+    </header>
+    <div class="split-shell__body">
+      <slot />
+    </div>
   </div>
 </template>
 
 <style scoped>
 .split-shell {
-  position: relative;
-  min-height: 100vh;
+  height: 100dvh;
+  max-height: 100dvh;
+  overflow: hidden;
   background: var(--color-surface);
+}
+
+@supports not (height: 100dvh) {
+  .split-shell {
+    height: 100vh;
+    max-height: 100vh;
+  }
 }
 
 .split-shell--senior {
   font-size: 1.18em;
 }
 
-.split-shell__back {
-  position: fixed;
-  top: max(0.5rem, env(safe-area-inset-top));
-  left: max(0.5rem, env(safe-area-inset-left));
-  z-index: 20;
-  display: grid;
-  place-items: center;
-  width: 2.875rem;
-  height: 2.875rem;
-  border: 0;
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--color-surface) 92%, transparent);
-  box-shadow: var(--shadow-sm);
-  color: var(--color-on-surface);
-  font-size: 1.25rem;
-  cursor: pointer;
-}
-
-.split-shell--senior .split-shell__back {
-  width: 3.25rem;
-  height: 3.25rem;
-  font-size: 1.4rem;
+.split-shell__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
 }
 </style>
