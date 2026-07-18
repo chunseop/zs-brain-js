@@ -116,8 +116,6 @@ onMounted(() => {
     @back="handleBack"
   >
     <section v-if="article" class="read-page" :class="{ 'read-page--senior': seniorMode }">
-      <p class="read-page__hint">{{ t('readArticleSetupHint') }}</p>
-
       <article class="read-article" aria-live="polite">
         <p class="read-article__meta">
           {{ t('readArticleCharCount', { count: article.charCount }) }}
@@ -204,16 +202,6 @@ onMounted(() => {
   padding: 1rem 1.25rem 0;
 }
 
-.read-page__hint {
-  flex-shrink: 0;
-  margin: 0 auto 0.85rem;
-  max-width: 34rem;
-  color: var(--color-on-surface-variant);
-  line-height: 1.65;
-  text-align: center;
-  font-weight: 600;
-}
-
 .read-article {
   display: flex;
   flex: 1;
@@ -286,13 +274,21 @@ onMounted(() => {
 .read-actions {
   display: flex;
   flex-shrink: 0;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  align-items: stretch;
   justify-content: center;
   gap: 0.75rem;
   margin: 0.85rem -1.25rem 0;
   padding: 0.85rem 1.25rem max(0.85rem, env(safe-area-inset-bottom));
   border-top: 1px solid color-mix(in srgb, var(--color-outline) 50%, transparent);
   background: color-mix(in srgb, var(--color-surface) 94%, var(--color-primary) 6%);
+}
+
+.read-actions > .read-primary,
+.read-actions > .read-secondary {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 12rem;
 }
 
 .read-primary,

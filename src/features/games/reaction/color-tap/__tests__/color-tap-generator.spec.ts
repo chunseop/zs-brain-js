@@ -56,4 +56,13 @@ describe('ColorTapGenerator', () => {
       expect(isCorrectTap(round, false)).toBe(!blueOnLeft)
     }
   })
+
+  it('picks a different instruction when switching rules', () => {
+    const generator = new ColorTapGenerator(seededRandom(4))
+    for (let i = 0; i < 50; i += 1) {
+      const next = generator.randomInstructionDifferentFrom('yellow')
+      expect(next.targetColorId).not.toBe('yellow')
+    }
+  })
 })
+

@@ -12,10 +12,10 @@ import type {
   ColorTapRound,
 } from '@/features/games/reaction/color-tap/domain/color-tap-models'
 import { isCorrectTap } from '@/features/games/reaction/color-tap/domain/color-tap-models'
+import { planRuleSwitchElapsedSeconds } from '@/features/games/reaction/color-tap/domain/color-tap-rule-switches'
 import SplitChoiceGameShell from '@/features/games/shared/SplitChoiceGameShell.vue'
 import SplitChoiceFloatingHint from '@/features/games/shared/SplitChoiceFloatingHint.vue'
 import SplitChoiceSessionSummary from '@/features/games/shared/SplitChoiceSessionSummary.vue'
-import SplitChoiceTimerChip from '@/features/games/shared/SplitChoiceTimerChip.vue'
 
 const SESSION_SECONDS = 45
 const WRONG_FEEDBACK_MS = 520
@@ -29,16 +29,20 @@ const settings = useAppSettingsStore()
 const generator = new ColorTapGenerator()
 const phase = ref<Phase>('setup')
 const instruction = ref<ColorTapInstruction | null>(null)
+const previousTargetColorId = ref<string | null>(null)
 const round = ref<ColorTapRound | null>(null)
 const secondsRemaining = ref(SESSION_SECONDS)
 const sessionTotal = ref(0)
 const sessionCorrect = ref(0)
 const showRuleHint = ref(false)
+const showRuleChange = ref(false)
 const wrongFlash = ref(false)
 const wrongTappedLeft = ref<boolean | null>(null)
 
 let countdownTimer: ReturnType<typeof setInterval> | undefined
 let wrongTimer: ReturnType<typeof setTimeout> | undefined
+let ruleSwitchAtElapsed: number[] = []
+let elapsedSeconds = 0
 
 const seniorMode = computed(() => settings.seniorModeEnabled)
 
@@ -47,14 +51,14 @@ const accuracyPercent = computed(() => {
   return Math.round((sessionCorrect.value * 100) / sessionTotal.value)
 })
 
-const timeLeftLabel = computed(() =>
-  t('numberCompareTimeLeftChip', { seconds: secondsRemaining.value }),
-)
-
 const ruleHintText = computed(() => {
   if (!instruction.value) return ''
-  const colorName = colorTapColorLabel(t, instruction.value.targetColorId)
-  return t('colorTapRuleHint', { colorName })
+  const toName = colorTapColorLabel(t, instruction.value.targetColorId)
+  if (showRuleChange.value && previousTargetColorId.value) {
+    const fromName = colorTapColorLabel(t, previousTargetColorId.value)
+    return t('colorTapRuleChangeHint', { fromName, toName })
+  }
+  return t('colorTapRuleHint', { colorName: toName })
 })
 
 function clearTimers() {
@@ -66,6 +70,7 @@ function clearTimers() {
 
 function hideRuleHint() {
   showRuleHint.value = false
+  showRuleChange.value = false
 }
 
 function nextRound() {
@@ -73,13 +78,29 @@ function nextRound() {
   round.value = generator.next(instruction.value)
 }
 
+function switchRule() {
+  if (!instruction.value) return
+  const fromId = instruction.value.targetColorId
+  previousTargetColorId.value = fromId
+  instruction.value = generator.randomInstructionDifferentFrom(fromId)
+  showRuleChange.value = true
+  showRuleHint.value = true
+  wrongFlash.value = false
+  wrongTappedLeft.value = null
+  nextRound()
+}
+
 function startSession() {
   clearTimers()
   sessionTotal.value = 0
   sessionCorrect.value = 0
   secondsRemaining.value = SESSION_SECONDS
+  elapsedSeconds = 0
+  ruleSwitchAtElapsed = planRuleSwitchElapsedSeconds(SESSION_SECONDS)
   wrongFlash.value = false
   wrongTappedLeft.value = null
+  previousTargetColorId.value = null
+  showRuleChange.value = false
 
   instruction.value = generator.randomInstruction()
   round.value = generator.next(instruction.value)
@@ -87,7 +108,13 @@ function startSession() {
   showRuleHint.value = true
 
   countdownTimer = setInterval(() => {
+    elapsedSeconds += 1
     secondsRemaining.value -= 1
+
+    if (ruleSwitchAtElapsed.includes(elapsedSeconds) && phase.value === 'playing') {
+      switchRule()
+    }
+
     if (secondsRemaining.value <= 0) {
       secondsRemaining.value = 0
       clearTimers()
@@ -165,9 +192,11 @@ onBeforeUnmount(() => {
       </button>
     </section>
 
-    <section v-else-if="phase === 'playing' && round" class="color-tap-play" :class="{ 'color-tap-play--senior': seniorMode }">
-      <SplitChoiceTimerChip :label="timeLeftLabel" :senior-mode="seniorMode" />
-
+    <section
+      v-else-if="phase === 'playing' && round"
+      class="color-tap-play"
+      :class="{ 'color-tap-play--senior': seniorMode }"
+    >
       <SplitChoiceFloatingHint
         :text="ruleHintText"
         :senior-mode="seniorMode"

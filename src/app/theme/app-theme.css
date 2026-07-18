@@ -13,15 +13,17 @@
   --shadow-sm: 0 1px 2px rgb(15 23 42 / 8%);
 }
 
+/* Dark: warm amber on near-black — less blue light, OLED-friendly */
 :root[data-theme='dark'] {
-  --color-primary: #60a5fa;
-  --color-on-primary: #0f172a;
-  --color-primary-container: #1e3a8a;
-  --color-on-primary-container: #dbeafe;
-  --color-surface: #0f172a;
-  --color-on-surface: #f8fafc;
-  --color-on-surface-variant: #94a3b8;
-  --color-outline: #334155;
+  --color-primary: #e0a045;
+  --color-on-primary: #1a1208;
+  --color-primary-container: #3d2a12;
+  --color-on-primary-container: #f3e0c2;
+  --color-surface: #000000;
+  --color-on-surface: #f0e6d8;
+  --color-on-surface-variant: #b8a894;
+  --color-outline: #3a3228;
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 50%);
 }
 
 :root[data-senior-mode='true'] {

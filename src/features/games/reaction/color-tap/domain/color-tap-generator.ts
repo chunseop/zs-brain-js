@@ -24,6 +24,12 @@ export class ColorTapGenerator {
     return { targetColorId: target.id }
   }
 
+  /** Pick a new target color different from the current one (for mid-session rule changes). */
+  randomInstructionDifferentFrom(excludeColorId: string): ColorTapInstruction {
+    const token = this.randomToken(excludeColorId)
+    return { targetColorId: token.id }
+  }
+
   next(instruction: ColorTapInstruction): ColorTapRound {
     const targetToken = this.tokenById(instruction.targetColorId)
     const otherToken = this.randomToken(instruction.targetColorId)

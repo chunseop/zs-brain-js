@@ -32,9 +32,9 @@ describe('HomeView', () => {
 
     expect(wrapper.text()).toContain('大小比较')
     expect(wrapper.text()).toContain('颜色点击')
-    expect(wrapper.text()).toContain('文章阅读')
+    expect(wrapper.text()).toContain('文章朗读')
     expect(wrapper.text()).toContain('平衡控制')
-    expect(wrapper.text().indexOf('文章阅读')).toBeLessThan(
+    expect(wrapper.text().indexOf('文章朗读')).toBeLessThan(
       wrapper.text().indexOf('平衡控制'),
     )
     expect(wrapper.text()).not.toContain('今日训练')

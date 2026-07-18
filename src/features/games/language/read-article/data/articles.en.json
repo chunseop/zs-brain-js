@@ -1,8 +1,8 @@
 {
-  "version": 4,
+  "version": 5,
   "locale": "en",
   "description": "English reading library of coherent standalone short passages.",
-  "count": 104,
+  "count": 360,
   "articles": [
     {
       "id": "en-001",
@@ -627,6 +627,1542 @@
       "theme": "life-tips",
       "charCount": 285,
       "text": "Washed greens used to turn soggy quickly, so Ida patted them dry with a clean towel, stored them in a clear box, and lined the top with kitchen paper. Vegetables lasted longer and stir-fried with less water. She shared the tip with a neighbor, and both kitchens felt fresher afterward."
+    },
+    {
+      "id": "en-105",
+      "theme": "science",
+      "charCount": 124,
+      "text": "Morning dew forms when warm air touches cool grass overnight. Clouds are made of tiny water droplets floating high above us."
+    },
+    {
+      "id": "en-106",
+      "theme": "science",
+      "charCount": 131,
+      "text": "Rainbows appear when sunlight passes through raindrops in the sky. The moon reflects sunlight, which is why we can see it at night."
+    },
+    {
+      "id": "en-107",
+      "theme": "science",
+      "charCount": 143,
+      "text": "Seasons change because Earth tilts slightly as it travels around the sun. Birds migrate to find warmer places and more food during cold months."
+    },
+    {
+      "id": "en-108",
+      "theme": "science",
+      "charCount": 129,
+      "text": "Bees visit flowers to collect nectar and help plants make seeds. Trees breathe in carbon dioxide and release fresh oxygen for us."
+    },
+    {
+      "id": "en-109",
+      "theme": "science",
+      "charCount": 136,
+      "text": "Roots draw water from soil so plants can grow tall and strong. Seeds need warmth, water, and patience before they sprout into seedlings."
+    },
+    {
+      "id": "en-110",
+      "theme": "science",
+      "charCount": 145,
+      "text": "Butterflies begin life as caterpillars before they transform in a cocoon. Earthquakes happen when rocks deep underground suddenly shift and move."
+    },
+    {
+      "id": "en-111",
+      "theme": "science",
+      "charCount": 139,
+      "text": "Volcanoes release melted rock called lava from openings in the ground. Oceans cover most of our planet and support countless forms of life."
+    },
+    {
+      "id": "en-112",
+      "theme": "science",
+      "charCount": 125,
+      "text": "Waves on the beach are pushed by wind blowing across the water. Ice floats because frozen water is lighter than liquid water."
+    },
+    {
+      "id": "en-113",
+      "theme": "science",
+      "charCount": 138,
+      "text": "Snowflakes form unique shapes as crystals grow in cold, moist air. Thunder follows lightning because sound travels more slowly than light."
+    },
+    {
+      "id": "en-114",
+      "theme": "science",
+      "charCount": 136,
+      "text": "Stars are giant balls of hot gas that shine from far away in space. Planets orbit the sun because gravity pulls them along curved paths."
+    },
+    {
+      "id": "en-115",
+      "theme": "science",
+      "charCount": 135,
+      "text": "The sun gives Earth light and warmth that make life possible here. Fossils are remains of ancient plants and animals preserved in rock."
+    },
+    {
+      "id": "en-116",
+      "theme": "science",
+      "charCount": 135,
+      "text": "Rivers carry rainwater downhill until it reaches lakes or the sea. Wetlands filter water and give birds and frogs a safe place to live."
+    },
+    {
+      "id": "en-117",
+      "theme": "science",
+      "charCount": 138,
+      "text": "Compost turns kitchen scraps into rich soil for gardens over time. Magnets attract certain metals because of invisible forces around them."
+    },
+    {
+      "id": "en-118",
+      "theme": "science",
+      "charCount": 133,
+      "text": "Sound travels through air as tiny vibrations we hear with our ears. Our bones support our bodies and protect important organs inside."
+    },
+    {
+      "id": "en-119",
+      "theme": "science",
+      "charCount": 133,
+      "text": "The heart pumps blood that carries oxygen to every part of the body. Muscles pull on bones so we can walk, lift, and smile with ease."
+    },
+    {
+      "id": "en-120",
+      "theme": "science",
+      "charCount": 129,
+      "text": "Skin helps keep germs out and holds warmth close to our bodies. Sleep lets the brain rest and store memories from the day before."
+    },
+    {
+      "id": "en-121",
+      "theme": "science",
+      "charCount": 145,
+      "text": "Exercise strengthens muscles and helps the heart work more efficiently. Vitamins in colorful fruits and vegetables support healthy eyes and skin."
+    },
+    {
+      "id": "en-122",
+      "theme": "science",
+      "charCount": 135,
+      "text": "Germs spread less when we wash hands with soap and warm water. Vaccines teach the body to recognize and fight certain illnesses safely."
+    },
+    {
+      "id": "en-123",
+      "theme": "science",
+      "charCount": 139,
+      "text": "Teeth need gentle brushing to stay clean and comfortable for chewing. Eyes adjust to light so we can see both bright windows and dim rooms."
+    },
+    {
+      "id": "en-124",
+      "theme": "science",
+      "charCount": 151,
+      "text": "Ears catch sound waves and send signals the brain turns into voices and music. The nose helps us smell flowers, fresh bread, and rain on warm pavement."
+    },
+    {
+      "id": "en-125",
+      "theme": "science",
+      "charCount": 151,
+      "text": "Balance comes from the inner ear working with eyes and muscles together. Breathing brings oxygen in and sends carbon dioxide out with each calm breath."
+    },
+    {
+      "id": "en-126",
+      "theme": "science",
+      "charCount": 147,
+      "text": "Water keeps joints moving smoothly and helps the body stay cool in summer. Fiber in whole grains and beans supports comfortable digestion each day."
+    },
+    {
+      "id": "en-127",
+      "theme": "science",
+      "charCount": 149,
+      "text": "Protein from eggs, fish, and beans helps repair small daily wear in the body. Calcium in milk and leafy greens supports sturdy bones over many years."
+    },
+    {
+      "id": "en-128",
+      "theme": "science",
+      "charCount": 147,
+      "text": "Sunlight helps the skin make vitamin D, which supports bone health gently. Rest after illness gives the body time to heal without rushing recovery."
+    },
+    {
+      "id": "en-129",
+      "theme": "science",
+      "charCount": 152,
+      "text": "A thermometer measures temperature so we know when to dress warmly or lightly. A barometer hints at weather changes by measuring air pressure around us."
+    },
+    {
+      "id": "en-130",
+      "theme": "science",
+      "charCount": 148,
+      "text": "Wind vanes show which direction the breeze is traveling across the yard. Rain gauges collect drops so gardeners know how much water nature provided."
+    },
+    {
+      "id": "en-131",
+      "theme": "science",
+      "charCount": 141,
+      "text": "Shadows grow long in evening because the sun sits lower in the sky. Photosynthesis is how green leaves turn sunlight into food for the plant."
+    },
+    {
+      "id": "en-132",
+      "theme": "science",
+      "charCount": 139,
+      "text": "Chlorophyll gives leaves their green color during the growing season. Deciduous trees drop leaves in autumn to save energy for winter rest."
+    },
+    {
+      "id": "en-133",
+      "theme": "science",
+      "charCount": 145,
+      "text": "Evergreen trees keep needles year-round and stay ready for cold weather. Ants work together in colonies, carrying food back to their shared nest."
+    },
+    {
+      "id": "en-134",
+      "theme": "science",
+      "charCount": 143,
+      "text": "Spiders spin silk threads to catch insects and protect their tiny homes. Earthworms loosen soil as they tunnel, helping roots breathe and grow."
+    },
+    {
+      "id": "en-135",
+      "theme": "science",
+      "charCount": 138,
+      "text": "Ladybugs eat aphids that sometimes bother garden roses and tomatoes. Owls hunt quietly at night thanks to soft feathers and sharp hearing."
+    },
+    {
+      "id": "en-136",
+      "theme": "science",
+      "charCount": 143,
+      "text": "Dolphins communicate with clicks and whistles under the sparkling sea. Whales migrate vast distances to find food and raise their young safely."
+    },
+    {
+      "id": "en-137",
+      "theme": "literature",
+      "charCount": 150,
+      "text": "A well-loved novel can feel like visiting an old friend on a rainy afternoon. Poetry uses few words to hold big feelings about home, hope, and memory."
+    },
+    {
+      "id": "en-138",
+      "theme": "literature",
+      "charCount": 160,
+      "text": "Libraries keep stories safe so anyone can borrow adventure without leaving town. Reading aloud brings characters to life in a room filled with gentle listening."
+    },
+    {
+      "id": "en-139",
+      "theme": "literature",
+      "charCount": 152,
+      "text": "A bookmark saves your place and welcomes you back to the next quiet chapter. Classic tales often begin with ordinary people facing small, brave choices."
+    },
+    {
+      "id": "en-140",
+      "theme": "literature",
+      "charCount": 159,
+      "text": "Short stories fit neatly into a teacup break and still leave a warm afterthought. Memoirs let us walk beside someone else’s life and learn from their kindness."
+    },
+    {
+      "id": "en-141",
+      "theme": "literature",
+      "charCount": 161,
+      "text": "Mystery novels invite us to notice clues we might miss in hurried daily life. Historical fiction paints past years with details that help us imagine other times."
+    },
+    {
+      "id": "en-142",
+      "theme": "literature",
+      "charCount": 152,
+      "text": "Fables use animals to teach lessons about honesty, patience, and sharing. Fairy tales remind children and adults that courage can appear in simple acts."
+    },
+    {
+      "id": "en-143",
+      "theme": "literature",
+      "charCount": 159,
+      "text": "Biographies celebrate lives spent serving neighbors, art, science, or family. Essays offer thoughtful reflections on gardens, friendship, and changing seasons."
+    },
+    {
+      "id": "en-144",
+      "theme": "literature",
+      "charCount": 155,
+      "text": "Letters between friends can read like literature when they are written with care. Diaries capture ordinary days that later feel precious to future readers."
+    },
+    {
+      "id": "en-145",
+      "theme": "literature",
+      "charCount": 143,
+      "text": "Book clubs turn solitary reading into shared laughter and gentle debate. A cozy chair and good lamp make reading easier on tired eyes at night."
+    },
+    {
+      "id": "en-146",
+      "theme": "literature",
+      "charCount": 153,
+      "text": "Large-print editions open stories to readers who prefer clear, generous type. Audiobooks let us hear skilled voices while resting eyes or walking slowly."
+    },
+    {
+      "id": "en-147",
+      "theme": "literature",
+      "charCount": 159,
+      "text": "Children’s picture books use bright art to welcome new readers into stories. Folk songs carry local history in melodies passed from one generation to the next."
+    },
+    {
+      "id": "en-148",
+      "theme": "literature",
+      "charCount": 154,
+      "text": "Plays come alive when actors speak lines written long ago but still fresh today. Sonnet forms guide poets to shape fourteen lines around one glowing idea."
+    },
+    {
+      "id": "en-149",
+      "theme": "literature",
+      "charCount": 148,
+      "text": "Haiku notices a single moment, like a frog jumping into a summer pond. Metaphors compare unlike things so we see rain as silver threads on rooftops."
+    },
+    {
+      "id": "en-150",
+      "theme": "literature",
+      "charCount": 134,
+      "text": "Similes use “like” or “as” to say cheeks are warm as morning sunlight. Alliteration repeats starting sounds, as in “soft summer sand.”"
+    },
+    {
+      "id": "en-151",
+      "theme": "literature",
+      "charCount": 153,
+      "text": "Rhyme gives poems a musical step that listeners can anticipate with pleasure. Free verse lets poets break lines wherever breath and meaning feel natural."
+    },
+    {
+      "id": "en-152",
+      "theme": "literature",
+      "charCount": 156,
+      "text": "Dialogue in stories reveals personality through what characters choose to say. Setting describes place and season so readers feel the room around the scene."
+    },
+    {
+      "id": "en-153",
+      "theme": "literature",
+      "charCount": 152,
+      "text": "Plot follows events that change a character’s understanding by the final page. Conflict can be as small as losing keys or as large as crossing an ocean."
+    },
+    {
+      "id": "en-154",
+      "theme": "literature",
+      "charCount": 156,
+      "text": "Resolution brings peace, laughter, or quiet acceptance after trouble passes. Theme is the heart of a story, such as gratitude, forgiveness, or perseverance."
+    },
+    {
+      "id": "en-155",
+      "theme": "literature",
+      "charCount": 146,
+      "text": "Symbolism lets a dove suggest peace without stating it in plain words. Foreshadowing drops gentle hints about what may happen many chapters later."
+    },
+    {
+      "id": "en-156",
+      "theme": "literature",
+      "charCount": 160,
+      "text": "Flashbacks show memories that explain why a character reacts with tenderness. Humor in literature invites us to smile at human habits we recognize in ourselves."
+    },
+    {
+      "id": "en-157",
+      "theme": "literature",
+      "charCount": 148,
+      "text": "Tragedy helps us honor loss while remembering love that continues afterward. Satire uses wit to nudge society toward fairness without harsh cruelty."
+    },
+    {
+      "id": "en-158",
+      "theme": "literature",
+      "charCount": 153,
+      "text": "Romance in books celebrates companionship, trust, and small daily affections. Adventure stories carry us over mountains and seas from the safety of home."
+    },
+    {
+      "id": "en-159",
+      "theme": "literature",
+      "charCount": 160,
+      "text": "Travel writing describes markets, trains, and meals that widen our view of Earth. Nature writing praises rivers, birds, and weather with patient, noticing eyes."
+    },
+    {
+      "id": "en-160",
+      "theme": "literature",
+      "charCount": 156,
+      "text": "Spiritual writing explores meaning, gratitude, and comfort during hard seasons. Cookbooks are literature too when they weave family stories between recipes."
+    },
+    {
+      "id": "en-161",
+      "theme": "literature",
+      "charCount": 150,
+      "text": "Art books pair paintings with words that help us see color and light anew. Graphic novels combine drawings and text for fast, expressive storytelling."
+    },
+    {
+      "id": "en-162",
+      "theme": "literature",
+      "charCount": 155,
+      "text": "Anthologies gather many authors so one volume holds diverse voices together. Literary magazines publish new poems and essays from writers in our own towns."
+    },
+    {
+      "id": "en-163",
+      "theme": "literature",
+      "charCount": 163,
+      "text": "Bookstores host readings where neighbors meet authors and share homemade cookies. Used bookshops feel like treasure rooms where each spine hides a surprise inside."
+    },
+    {
+      "id": "en-164",
+      "theme": "literature",
+      "charCount": 149,
+      "text": "Signing a gift book turns pages into a keepsake someone may keep for years. Marginal notes in old volumes show how earlier readers argued and agreed."
+    },
+    {
+      "id": "en-165",
+      "theme": "literature",
+      "charCount": 155,
+      "text": "Translators bring foreign novels to new languages while honoring original rhythm. Editing polishes sentences so meaning shines without unnecessary clutter."
+    },
+    {
+      "id": "en-166",
+      "theme": "literature",
+      "charCount": 162,
+      "text": "Revision teaches writers that good work often grows through patient second drafts. Writer’s block loosens when we write one honest sentence about the window view."
+    },
+    {
+      "id": "en-167",
+      "theme": "literature",
+      "charCount": 150,
+      "text": "Journals collect seeds that may become essays, poems, or letters later on. Calligraphy makes a favorite quote beautiful enough to hang above the desk."
+    },
+    {
+      "id": "en-168",
+      "theme": "literature",
+      "charCount": 155,
+      "text": "Storytelling circles at community centers keep oral tradition warm and alive. Grandparents’ tales about first jobs and long trips become family literature."
+    },
+    {
+      "id": "en-169",
+      "theme": "life-knowledge",
+      "charCount": 158,
+      "text": "Labeling leftovers with dates helps the refrigerator stay safe and organized. Defrosting meat in the fridge overnight is safer than leaving it on the counter."
+    },
+    {
+      "id": "en-170",
+      "theme": "life-knowledge",
+      "charCount": 157,
+      "text": "Separate cutting boards for raw meat and vegetables reduce the risk of illness. Washing produce under cool running water removes surface dirt before cooking."
+    },
+    {
+      "id": "en-171",
+      "theme": "life-knowledge",
+      "charCount": 154,
+      "text": "A smoke detector test each month takes seconds and can prevent great harm. Keeping a flashlight by the bed helps during unexpected power outages at night."
+    },
+    {
+      "id": "en-172",
+      "theme": "life-knowledge",
+      "charCount": 144,
+      "text": "Non-slip mats in the bathroom make stepping out of the shower steadier. Good lighting on stairs prevents trips when carrying laundry up or down."
+    },
+    {
+      "id": "en-173",
+      "theme": "life-knowledge",
+      "charCount": 144,
+      "text": "Removing clutter from hallways leaves a clear path for walking with a cane. Storing heavy items on lower shelves avoids risky reaching overhead."
+    },
+    {
+      "id": "en-174",
+      "theme": "life-knowledge",
+      "charCount": 153,
+      "text": "Turning pot handles inward on the stove keeps sleeves from knocking them. Unplugging small appliances when not in use saves energy and reduces fire risk."
+    },
+    {
+      "id": "en-175",
+      "theme": "life-knowledge",
+      "charCount": 151,
+      "text": "Checking expiry dates on medicine bottles keeps the home cabinet trustworthy. A small first-aid kit with bandages and gauze handles minor cuts at home."
+    },
+    {
+      "id": "en-176",
+      "theme": "life-knowledge",
+      "charCount": 154,
+      "text": "Writing emergency numbers near the phone helps grandchildren and guests alike. Sharing spare keys with a trusted neighbor prevents lockouts after errands."
+    },
+    {
+      "id": "en-177",
+      "theme": "life-knowledge",
+      "charCount": 151,
+      "text": "Setting phone reminders for bill due dates avoids late fees and worry. Paying bills online saves a trip when the bank’s website is familiar and secure."
+    },
+    {
+      "id": "en-178",
+      "theme": "life-knowledge",
+      "charCount": 155,
+      "text": "Keeping receipts in one envelope simplifies returns if a purchase does not fit. Comparing unit prices at the grocery store stretches a fixed budget kindly."
+    },
+    {
+      "id": "en-179",
+      "theme": "life-knowledge",
+      "charCount": 146,
+      "text": "Buying seasonal produce often costs less and tastes fresher on the table. A shopping list reduces impulse buys and forgotten ingredients for soup."
+    },
+    {
+      "id": "en-180",
+      "theme": "life-knowledge",
+      "charCount": 151,
+      "text": "Reusable bags are sturdier for canned goods and lighter on the environment. Checking weather before dressing prevents being caught without an umbrella."
+    },
+    {
+      "id": "en-181",
+      "theme": "life-knowledge",
+      "charCount": 155,
+      "text": "Layering clothes adjusts easily when morning chill turns to afternoon warmth. Wearing supportive shoes makes market aisles and park paths more comfortable."
+    },
+    {
+      "id": "en-182",
+      "theme": "life-knowledge",
+      "charCount": 147,
+      "text": "Replacing worn shoe soles improves balance on wet or uneven sidewalks. Sunglasses protect eyes from bright glare during winter snow and summer sun."
+    },
+    {
+      "id": "en-183",
+      "theme": "life-knowledge",
+      "charCount": 145,
+      "text": "Hats shade the face during gardening and neighborhood walks at noon. Sunscreen on exposed skin helps prevent burns during long outdoor festivals."
+    },
+    {
+      "id": "en-184",
+      "theme": "life-knowledge",
+      "charCount": 161,
+      "text": "Drinking water before feeling thirsty supports energy on hot afternoon errands. Carrying a small water bottle encourages sips during bus rides and waiting rooms."
+    },
+    {
+      "id": "en-185",
+      "theme": "life-knowledge",
+      "charCount": 161,
+      "text": "Pacing chores with short breaks keeps joints happier through the whole morning. Sitting to fold laundry or peel vegetables rests legs while work still gets done."
+    },
+    {
+      "id": "en-186",
+      "theme": "life-knowledge",
+      "charCount": 151,
+      "text": "Using a reacher tool grabs items from high shelves without climbing on chairs. A sturdy step stool with handrails is safer than a wobbly kitchen chair."
+    },
+    {
+      "id": "en-187",
+      "theme": "life-knowledge",
+      "charCount": 155,
+      "text": "Installing grab bars near the tub offers steady support when floors are wet. Night-lights in hallways guide safe trips to the kitchen for a glass of water."
+    },
+    {
+      "id": "en-188",
+      "theme": "life-knowledge",
+      "charCount": 164,
+      "text": "Wearing slippers with good traction prevents slips on polished bedroom floors. Keeping hearing-aid batteries in a labeled box avoids frantic searches before church."
+    },
+    {
+      "id": "en-189",
+      "theme": "life-knowledge",
+      "charCount": 161,
+      "text": "Cleaning glasses with microfiber cloths reduces scratches and smudges while reading. Adjusting thermostat a degree or two saves fuel without sacrificing comfort."
+    },
+    {
+      "id": "en-190",
+      "theme": "life-knowledge",
+      "charCount": 149,
+      "text": "Sealing drafty windows with weather strips keeps rooms cozier in winter. Opening windows briefly refreshes indoor air even on chilly spring mornings."
+    },
+    {
+      "id": "en-191",
+      "theme": "life-knowledge",
+      "charCount": 145,
+      "text": "Houseplants need drainage holes so roots do not sit in stagnant water. Watering plants in the morning reduces evaporation on sunny balcony boxes."
+    },
+    {
+      "id": "en-192",
+      "theme": "life-knowledge",
+      "charCount": 146,
+      "text": "Rotating a houseplant toward the window each week helps it grow evenly. Dusting ceiling fan blades before summer keeps breezes clean and pleasant."
+    },
+    {
+      "id": "en-193",
+      "theme": "life-knowledge",
+      "charCount": 147,
+      "text": "Vacuuming under furniture monthly reduces allergens hiding in carpet fibers. Washing bedding weekly in warm water supports restful, hygienic sleep."
+    },
+    {
+      "id": "en-194",
+      "theme": "life-knowledge",
+      "charCount": 151,
+      "text": "Airing pillows outdoors on dry days refreshes them without harsh chemicals. Rotating mattresses every few months helps them wear evenly over the years."
+    },
+    {
+      "id": "en-195",
+      "theme": "life-knowledge",
+      "charCount": 147,
+      "text": "Labeling cords behind the television prevents unplugging the wrong device. Surge protectors guard computers and radios during summer thunderstorms."
+    },
+    {
+      "id": "en-196",
+      "theme": "life-knowledge",
+      "charCount": 152,
+      "text": "Changing Wi-Fi passwords occasionally keeps home networks more secure. Creating strong passwords with phrases is easier to remember than random symbols."
+    },
+    {
+      "id": "en-197",
+      "theme": "life-knowledge",
+      "charCount": 145,
+      "text": "Two-step verification adds a friendly extra lock to email and banking apps. Screenshotting confirmation numbers helps if a delivery goes missing."
+    },
+    {
+      "id": "en-198",
+      "theme": "life-knowledge",
+      "charCount": 160,
+      "text": "Tracking packages online reduces anxiety about gifts arriving before birthdays. Writing names on luggage tags speeds reunion if bags are delayed at the airport."
+    },
+    {
+      "id": "en-199",
+      "theme": "life-knowledge",
+      "charCount": 155,
+      "text": "Packing medications in carry-on bags keeps routines steady if luggage is late. Arriving early for appointments leaves time to find parking without rushing."
+    },
+    {
+      "id": "en-200",
+      "theme": "life-knowledge",
+      "charCount": 149,
+      "text": "Bringing a book to waiting rooms turns idle minutes into pleasant reading. Asking doctors to repeat instructions ensures medicine is taken correctly."
+    },
+    {
+      "id": "en-201",
+      "theme": "health-knowledge",
+      "charCount": 155,
+      "text": "Regular walking supports heart health without requiring expensive equipment. Gentle stretching in the morning helps joints feel looser before daily chores."
+    },
+    {
+      "id": "en-202",
+      "theme": "health-knowledge",
+      "charCount": 153,
+      "text": "Balance exercises near a sturdy chair reduce the risk of falls at home. Strength training with light weights maintains muscle that supports independence."
+    },
+    {
+      "id": "en-203",
+      "theme": "health-knowledge",
+      "charCount": 146,
+      "text": "Deep breathing calms the nervous system during stressful news or busy days. Adequate sleep lets the immune system repair and prepare for tomorrow."
+    },
+    {
+      "id": "en-204",
+      "theme": "health-knowledge",
+      "charCount": 154,
+      "text": "Consistent bedtimes train the body to fall asleep more easily each night. Limiting caffeine after lunch can reduce restless nights for sensitive sleepers."
+    },
+    {
+      "id": "en-205",
+      "theme": "health-knowledge",
+      "charCount": 155,
+      "text": "A dark, cool bedroom encourages longer stretches of uninterrupted rest. Short naps before three o’clock can refresh energy without ruining nighttime sleep."
+    },
+    {
+      "id": "en-206",
+      "theme": "health-knowledge",
+      "charCount": 157,
+      "text": "Hydration keeps blood volume steady and supports clear thinking on warm days. Limiting salty snacks helps blood pressure stay in a range your doctor prefers."
+    },
+    {
+      "id": "en-207",
+      "theme": "health-knowledge",
+      "charCount": 168,
+      "text": "Potassium-rich bananas and spinach support healthy blood pressure alongside medicine. Whole grains provide fiber that supports steady blood sugar through the afternoon."
+    },
+    {
+      "id": "en-208",
+      "theme": "health-knowledge",
+      "charCount": 160,
+      "text": "Small frequent meals may suit some people better than three large ones daily. Mindful eating—chewing slowly—helps digestion and prevents uncomfortable fullness."
+    },
+    {
+      "id": "en-209",
+      "theme": "health-knowledge",
+      "charCount": 164,
+      "text": "Dental health connects to heart health, so gum care matters beyond a pretty smile. Annual flu shots protect seniors whose immune systems benefit from extra support."
+    },
+    {
+      "id": "en-210",
+      "theme": "health-knowledge",
+      "charCount": 169,
+      "text": "Pneumonia vaccines are recommended for many older adults on a schedule doctors advise. Shingles vaccines reduce painful outbreaks that can linger for weeks if untreated."
+    },
+    {
+      "id": "en-211",
+      "theme": "health-knowledge",
+      "charCount": 160,
+      "text": "Bone density scans help detect osteoporosis before a minor fall causes a fracture. Weight-bearing exercise like brisk walking stimulates bones to stay stronger."
+    },
+    {
+      "id": "en-212",
+      "theme": "health-knowledge",
+      "charCount": 164,
+      "text": "Vitamin D supplements may help when sunlight exposure is limited in winter months. Calcium from food and supplements works best when paired with adequate vitamin D."
+    },
+    {
+      "id": "en-213",
+      "theme": "health-knowledge",
+      "charCount": 159,
+      "text": "Limiting alcohol to moderate amounts supports liver health and steadier balance. Smoking cessation at any age improves lung function and circulation over time."
+    },
+    {
+      "id": "en-214",
+      "theme": "health-knowledge",
+      "charCount": 153,
+      "text": "Secondhand smoke avoidance protects lungs even if you quit decades ago. Skin checks for new moles help catch skin cancer early when treatment is simpler."
+    },
+    {
+      "id": "en-215",
+      "theme": "health-knowledge",
+      "charCount": 161,
+      "text": "Moisturizing dry skin prevents cracks that could allow infection in cold weather. Foot exams matter for people with diabetes because small sores can heal slowly."
+    },
+    {
+      "id": "en-216",
+      "theme": "health-knowledge",
+      "charCount": 162,
+      "text": "Properly fitted shoes prevent blisters that might become serious for diabetic feet. Blood sugar logs help doctors adjust treatment for diabetes with clearer data."
+    },
+    {
+      "id": "en-217",
+      "theme": "health-knowledge",
+      "charCount": 150,
+      "text": "Carbohydrate counting guides meal planning for stable glucose through the day. Low-glycemic snacks like nuts prevent sharp sugar spikes between meals."
+    },
+    {
+      "id": "en-218",
+      "theme": "health-knowledge",
+      "charCount": 154,
+      "text": "Cholesterol panels guide decisions about diet, exercise, and possible medication. Omega-3 fats from fish support heart health as part of a balanced plate."
+    },
+    {
+      "id": "en-219",
+      "theme": "health-knowledge",
+      "charCount": 163,
+      "text": "Trans fats in some baked goods are best limited for cardiovascular wellness. Monitoring blood pressure at home reveals patterns better than single clinic readings."
+    },
+    {
+      "id": "en-220",
+      "theme": "health-knowledge",
+      "charCount": 159,
+      "text": "Recording readings in a logbook helps nurses spot trends at follow-up visits. Recognizing stroke signs FAST—face, arms, speech, time—can save precious minutes."
+    },
+    {
+      "id": "en-221",
+      "theme": "health-knowledge",
+      "charCount": 175,
+      "text": "Calling emergency services quickly improves outcomes after chest pain or sudden weakness. Keeping aspirin only when prescribed avoids unsafe self-treatment during emergencies."
+    },
+    {
+      "id": "en-222",
+      "theme": "health-knowledge",
+      "charCount": 176,
+      "text": "Rehabilitation after surgery rebuilds strength with guidance from physical therapists. Occupational therapists suggest tools that make dressing and cooking easier after injury."
+    },
+    {
+      "id": "en-223",
+      "theme": "health-knowledge",
+      "charCount": 162,
+      "text": "Speech therapy helps recovery when illness affects swallowing or word finding. Memory clinics evaluate changes that families notice during ordinary conversations."
+    },
+    {
+      "id": "en-224",
+      "theme": "health-knowledge",
+      "charCount": 162,
+      "text": "Brain games are fun yet social activity and exercise also support cognitive health. Social connection lowers stress hormones that affect blood pressure and sleep."
+    },
+    {
+      "id": "en-225",
+      "theme": "health-knowledge",
+      "charCount": 172,
+      "text": "Loneliness is a health concern addressable through clubs, faith groups, and volunteering. Pet ownership encourages walking and provides comforting routine for many seniors."
+    },
+    {
+      "id": "en-226",
+      "theme": "health-knowledge",
+      "charCount": 159,
+      "text": "Gardening offers light activity, sunlight, and satisfaction from growing food. Tai chi improves balance and confidence in groups that practice in parks weekly."
+    },
+    {
+      "id": "en-227",
+      "theme": "health-knowledge",
+      "charCount": 147,
+      "text": "Water aerobics protects joints while building endurance in community pools. Yoga adapted for chairs stretches muscles without requiring floor mats."
+    },
+    {
+      "id": "en-228",
+      "theme": "health-knowledge",
+      "charCount": 177,
+      "text": "Pilates with a trainer strengthens core muscles that support posture while standing. Massage therapy may ease muscle tension though it complements rather than replaces medicine."
+    },
+    {
+      "id": "en-229",
+      "theme": "health-knowledge",
+      "charCount": 168,
+      "text": "Acupuncture helps some people manage chronic pain when performed by licensed providers. Heat packs relax stiff shoulders; ice packs reduce swelling after minor sprains."
+    },
+    {
+      "id": "en-230",
+      "theme": "health-knowledge",
+      "charCount": 152,
+      "text": "Elevating swollen ankles after long sitting helps fluid return toward the heart. Compression socks support circulation during long bus trips or flights."
+    },
+    {
+      "id": "en-231",
+      "theme": "health-knowledge",
+      "charCount": 169,
+      "text": "Deep vein thrombosis prevention includes walking aisles on airplanes when possible. Medication reviews with pharmacists catch duplicate drugs from different specialists."
+    },
+    {
+      "id": "en-232",
+      "theme": "health-knowledge",
+      "charCount": 180,
+      "text": "Herbal supplements can interact with prescriptions, so doctors should know everything taken. Melatonin helps some sleepers yet dosage and timing should be discussed professionally."
+    },
+    {
+      "id": "en-233",
+      "theme": "nature",
+      "charCount": 169,
+      "text": "Cherry blossoms along the riverbank opened overnight after a week of gentle rain. A woodpecker tapped rhythmically on the old oak while squirrels chased along the fence."
+    },
+    {
+      "id": "en-234",
+      "theme": "nature",
+      "charCount": 177,
+      "text": "Morning mist lifted from the meadow, revealing dew on spider webs between tall grasses. Goldfinches visited the thistle feeder, their bright feathers flashing in April sunlight."
+    },
+    {
+      "id": "en-235",
+      "theme": "nature",
+      "charCount": 174,
+      "text": "After the storm, earthworms surfaced on the sidewalk and robins gathered for an easy breakfast. The community garden’s sunflowers turned their faces toward the afternoon sun."
+    },
+    {
+      "id": "en-236",
+      "theme": "nature",
+      "charCount": 165,
+      "text": "Crisp autumn leaves crunched underfoot as neighbors walked dogs through the park. A heron stood motionless at the pond edge before spearing a fish with sudden grace."
+    },
+    {
+      "id": "en-237",
+      "theme": "nature",
+      "charCount": 176,
+      "text": "Fireflies blinked in the backyard at dusk, delighting grandchildren who chased them gently. Snow softened every roofline in the neighborhood, making the world feel quietly new."
+    },
+    {
+      "id": "en-238",
+      "theme": "nature",
+      "charCount": 176,
+      "text": "Wild geese honked overhead in a V formation heading south before the first hard frost. A monarch butterfly rested on a marigold, wings slowly opening and closing in the warmth."
+    },
+    {
+      "id": "en-239",
+      "theme": "nature",
+      "charCount": 170,
+      "text": "The scent of rain on dry pavement drifted through open windows after a summer shower. Tide pools at the beach held tiny crabs and anemones children peered at with wonder."
+    },
+    {
+      "id": "en-240",
+      "theme": "nature",
+      "charCount": 180,
+      "text": "Pine needles carpeted the forest path where hikers paused to listen to wind in branches. A rainbow arched above the hills after brief hail surprised shoppers at the outdoor market."
+    },
+    {
+      "id": "en-241",
+      "theme": "nature",
+      "charCount": 167,
+      "text": "Lavender rows at the farm attracted bees whose humming filled the warm afternoon air. Moonlight silvered the lake so clearly that ripples looked like threads of light."
+    },
+    {
+      "id": "en-242",
+      "theme": "nature",
+      "charCount": 176,
+      "text": "Migrating sandhill cranes called from high altitude, a sound both ancient and reassuring. Frost patterns on the windowpane looked like ferns drawn by an invisible careful hand."
+    },
+    {
+      "id": "en-243",
+      "theme": "nature",
+      "charCount": 176,
+      "text": "A family of ducks crossed the parking lot in single file while traffic waited patiently. Cicadas sang from treetops on the hottest day, marking summer with steady buzzing song."
+    },
+    {
+      "id": "en-244",
+      "theme": "nature",
+      "charCount": 182,
+      "text": "Heather bloomed purple on the hillside where walkers stopped to breathe the mountain air. A gentle brook behind the cabin murmured over stones while kettle steam rose from the porch."
+    },
+    {
+      "id": "en-245",
+      "theme": "nature",
+      "charCount": 159,
+      "text": "Hummingbirds hovered at the feeder, wings a blur between sips of sweet red nectar. Fallen apples in the orchard attracted deer that grazed quietly at twilight."
+    },
+    {
+      "id": "en-246",
+      "theme": "nature",
+      "charCount": 176,
+      "text": "Sea oats bent along the dune as Atlantic breezes carried salt and distant gull cries. A caterpillar inched along the railing, carrying its bright green world on a slow journey."
+    },
+    {
+      "id": "en-247",
+      "theme": "nature",
+      "charCount": 172,
+      "text": "Morning glories unfurled on the trellis just as the baker opened shop down the street. An owl hooted once from the cedar tree, then silence returned to the sleeping suburb."
+    },
+    {
+      "id": "en-248",
+      "theme": "nature",
+      "charCount": 183,
+      "text": "Peonies heavy with rain drooped toward the soil, releasing a sweet fragrance after the cloudburst. The desert bloomed briefly when rare rains woke dormant seeds into carpets of color."
+    },
+    {
+      "id": "en-249",
+      "theme": "nature",
+      "charCount": 183,
+      "text": "A red fox crossed the snow behind the garden shed, leaving delicate prints in fresh powder. Koi glided beneath lily pads in the temple pond, orange and white scales catching sunbeams."
+    },
+    {
+      "id": "en-250",
+      "theme": "nature",
+      "charCount": 176,
+      "text": "Magnolia petals scattered on the lawn like cups of cream after a windy spring night. Starlings swirled in a murmuration above the field, thousands moving as one cloud of wings."
+    },
+    {
+      "id": "en-251",
+      "theme": "nature",
+      "charCount": 181,
+      "text": "A barn owl floated soundlessly over the meadow hunting mice in the last light of day. Cattails stood brown and fuzzy at the marsh edge where red-winged blackbirds claimed territory."
+    },
+    {
+      "id": "en-252",
+      "theme": "nature",
+      "charCount": 172,
+      "text": "The northern lights shimmered green and violet, a rare gift on a clear winter midnight. A tortoise sunned on a rock while hikers read the trail sign and gave it wide berth."
+    },
+    {
+      "id": "en-253",
+      "theme": "culture",
+      "charCount": 174,
+      "text": "The community choir rehearsed folk songs for the harvest festival on the town green. Pottery class students shaped bowls that would hold soup for the shelter’s winter dinner."
+    },
+    {
+      "id": "en-254",
+      "theme": "culture",
+      "charCount": 179,
+      "text": "At the film club, members discussed a gentle comedy about neighbors helping one another. The quilt show displayed stitches that told stories of weddings, births, and long travels."
+    },
+    {
+      "id": "en-255",
+      "theme": "culture",
+      "charCount": 188,
+      "text": "Calligraphy students practiced characters meaning peace, patience, and gratitude on rice paper. The jazz trio in the café played standards that had couples swaying slightly in their seats."
+    },
+    {
+      "id": "en-256",
+      "theme": "culture",
+      "charCount": 184,
+      "text": "A docent guided visitors through the exhibit of photographs from the city’s early streetcars. Children in lion dance costumes rehearsed for Lunar New Year while drummers counted beats."
+    },
+    {
+      "id": "en-257",
+      "theme": "culture",
+      "charCount": 181,
+      "text": "The book festival featured local authors signing mysteries set in nearby fishing villages. Folk dancers in bright skirts taught a simple waltz step to audience members between sets."
+    },
+    {
+      "id": "en-258",
+      "theme": "culture",
+      "charCount": 175,
+      "text": "The theater group performed a play about immigrants opening a bakery on Main Street. Watercolor painters gathered at the pier to capture boats returning with the evening tide."
+    },
+    {
+      "id": "en-259",
+      "theme": "culture",
+      "charCount": 180,
+      "text": "A harpist played in the hospital lobby, soft notes easing tension for waiting families. The history lecture explained how the old bridge was built by craftsmen from three counties."
+    },
+    {
+      "id": "en-260",
+      "theme": "culture",
+      "charCount": 182,
+      "text": "String quartets at the library made classical music feel welcoming rather than distant. The cultural center hosted a tea ceremony where each gesture was explained with quiet respect."
+    },
+    {
+      "id": "en-261",
+      "theme": "culture",
+      "charCount": 188,
+      "text": "Mask-making workshop supplies covered tables before the carnival parade down Oak Avenue. An oral historian recorded memories of shopkeepers who once closed for every Fourth of July picnic."
+    },
+    {
+      "id": "en-262",
+      "theme": "culture",
+      "charCount": 175,
+      "text": "The dance studio offered seated ballet for seniors who loved music and graceful movement. Block printing class printed cards with maple leaves to mail before autumn birthdays."
+    },
+    {
+      "id": "en-263",
+      "theme": "culture",
+      "charCount": 182,
+      "text": "The opera broadcast on radio let listeners follow subtitles while weeding the tomato beds. A traveling exhibit of Islamic geometric art drew students sketching patterns in notebooks."
+    },
+    {
+      "id": "en-264",
+      "theme": "culture",
+      "charCount": 176,
+      "text": "Community theater ushers handed out programs with biographies of retired actors in the cast. The brass band marched in Memorial Day parade while veterans saluted from the curb."
+    },
+    {
+      "id": "en-265",
+      "theme": "culture",
+      "charCount": 184,
+      "text": "Story slams at the café rewarded honest five-minute tales about first jobs and long love. The museum shop sold replicas of ancient coins that children examined with magnifying glasses."
+    },
+    {
+      "id": "en-266",
+      "theme": "culture",
+      "charCount": 183,
+      "text": "A capoeira demonstration blended martial arts and music on the multicultural fair stage. Embroidery circle members stitched baby blankets destined for the maternity ward donation box."
+    },
+    {
+      "id": "en-267",
+      "theme": "culture",
+      "charCount": 181,
+      "text": "The poetry wall in the park invited chalk verses washed away by rain and rewritten weekly. Film preservationists restored a silent movie with live piano accompaniment at the cinema."
+    },
+    {
+      "id": "en-268",
+      "theme": "culture",
+      "charCount": 179,
+      "text": "The heritage festival offered tastes of dumplings, tamales, and pierogi from neighbor booths. Glassblowing demos at the art fair drew crowds watching molten color take vase shape."
+    },
+    {
+      "id": "en-269",
+      "theme": "culture",
+      "charCount": 182,
+      "text": "The ukulele club strummed at the senior center, inviting newcomers to borrow spare instruments. Native plant talk paired ecology with traditions of people who tended this land first."
+    },
+    {
+      "id": "en-270",
+      "theme": "culture",
+      "charCount": 170,
+      "text": "The sculpture garden added a bench facing the new bronze figure of a reading child. Flamenco footwork echoed in the studio while students clapped palmas in steady rhythm."
+    },
+    {
+      "id": "en-271",
+      "theme": "culture",
+      "charCount": 185,
+      "text": "The lantern festival floated paper lights on the pond as families walked the path arm in arm. A curator explained how restorers cleaned centuries of grime from a small Madonna painting."
+    },
+    {
+      "id": "en-272",
+      "theme": "culture",
+      "charCount": 180,
+      "text": "Community radio played interviews with bus drivers who doubled as church choir baritones. The holiday craft fair raised funds for the food bank through handmade ornaments and jams."
+    },
+    {
+      "id": "en-273",
+      "theme": "family",
+      "charCount": 178,
+      "text": "Grandma saved every drawing her granddaughter mailed, clipping them to the refrigerator. Brothers who live in different states still call every Sunday to compare garden progress."
+    },
+    {
+      "id": "en-274",
+      "theme": "family",
+      "charCount": 176,
+      "text": "The family recipe box held cards in three handwriting styles spanning two generations. During video chat, the new baby waved chubby fists while great-aunt clapped with delight."
+    },
+    {
+      "id": "en-275",
+      "theme": "family",
+      "charCount": 188,
+      "text": "Uncle taught the teenager to change a tire before handing over keys for the first solo drive. Cousins reunited at the lake house and stayed up late sharing stories their parents once told."
+    },
+    {
+      "id": "en-276",
+      "theme": "family",
+      "charCount": 180,
+      "text": "Mother and daughter baked bread together, flour dusting both aprons like shared snow. Father walked slowly beside his son through the cemetery where grandparents rest side by side."
+    },
+    {
+      "id": "en-277",
+      "theme": "family",
+      "charCount": 182,
+      "text": "Sisters traded books by mail, each including a note about why the story reminded her of home. The family group chat buzzed with photos of the puppy’s first day in a cozy blanket bed."
+    },
+    {
+      "id": "en-278",
+      "theme": "family",
+      "charCount": 189,
+      "text": "Grandfather showed maps of his navy route while grandchildren traced oceans with curious fingers. In-laws welcomed the newlyweds with a potluck where everyone brought a dish from childhood."
+    },
+    {
+      "id": "en-279",
+      "theme": "family",
+      "charCount": 194,
+      "text": "The eldest son organized sibling calls so their aging parent never spent a birthday alone. Twin grandsons raced tricycles on the driveway while grandparents timed them with laughing stopwatches."
+    },
+    {
+      "id": "en-280",
+      "theme": "family",
+      "charCount": 184,
+      "text": "A handwritten letter from abroad arrived with pressed flowers and news of a safe journey. Family game night resumed after years apart, monopoly money scattered like old times returned."
+    },
+    {
+      "id": "en-281",
+      "theme": "family",
+      "charCount": 182,
+      "text": "The daughter-in-law learned her partner’s favorite soup recipe from his mother by phone. Nephews helped assemble the swing set while aunts brought lemonade and sunscreen to the yard."
+    },
+    {
+      "id": "en-282",
+      "theme": "family",
+      "charCount": 179,
+      "text": "Holiday ornaments each held a tag with the year a child made them in elementary school. The family tree poster at the reunion grew new leaves as babies were introduced one by one."
+    },
+    {
+      "id": "en-283",
+      "theme": "family",
+      "charCount": 185,
+      "text": "Step-grandchildren felt included when holiday stockings hung with the same names as always. Brother and sister cleaned out the attic, finding photos that restarted hours of gentle talk."
+    },
+    {
+      "id": "en-284",
+      "theme": "family",
+      "charCount": 179,
+      "text": "Parents recorded lullabies on a phone so faraway grandparents could sing along at bedtime. The whole family adopted a highway mile and cleaned it together every spring since 1998."
+    },
+    {
+      "id": "en-285",
+      "theme": "family",
+      "charCount": 185,
+      "text": "Grandchildren slept in sleeping bags on the living room floor after popcorn and old movies. Family volunteers served Thanksgiving dinner at the church hall before their own small feast."
+    },
+    {
+      "id": "en-286",
+      "theme": "family",
+      "charCount": 176,
+      "text": "An anniversary party gathered five generations for a photograph on the courthouse steps. The youngest wrote a poem for Grandma’s ninetieth birthday and read it without shaking."
+    },
+    {
+      "id": "en-287",
+      "theme": "family",
+      "charCount": 185,
+      "text": "Relatives shared a rental cabin where mornings smelled of pine and pancakes stacked high. When illness came, relatives rotated nights on the sofa to keep vigil with gentle conversation."
+    },
+    {
+      "id": "en-288",
+      "theme": "family",
+      "charCount": 189,
+      "text": "The family trust fund for education sent the first grandchild to college with proud tears. Sibling rivalry softened after they cared jointly for a parent and learned to divide tasks fairly."
+    },
+    {
+      "id": "en-289",
+      "theme": "family",
+      "charCount": 174,
+      "text": "Family traditions included planting a tree for each newborn in the backyard orchard row. The holiday phone tree ensured every cousin heard the same warm invitation to dinner."
+    },
+    {
+      "id": "en-290",
+      "theme": "family",
+      "charCount": 179,
+      "text": "Grandpa’s workshop smelled of sawdust where he built toy boats for each visiting grandchild. Family photos lined the stairwell, turning each step into a timeline of smiling faces."
+    },
+    {
+      "id": "en-291",
+      "theme": "family",
+      "charCount": 186,
+      "text": "The blended family chose a new surname hyphen only on holiday cards, keeping humor and unity. Relatives mailed care packages of socks and tea to the soldier who always called on Sundays."
+    },
+    {
+      "id": "en-292",
+      "theme": "family",
+      "charCount": 183,
+      "text": "Family council meetings let teenagers vote on vacation spots with the same voice as elders. At the wedding, both families danced together when the DJ played the bride’s parents’ song."
+    },
+    {
+      "id": "en-293",
+      "theme": "daily",
+      "charCount": 175,
+      "text": "She opened the curtains at seven and let pale winter light fill the tidy kitchen. He folded yesterday’s newspaper neatly before starting today’s crossword with a sharp pencil."
+    },
+    {
+      "id": "en-294",
+      "theme": "daily",
+      "charCount": 160,
+      "text": "The bus arrived on time, and familiar faces nodded hello across the aisle. She watered balcony herbs before locking the door for the morning walk to the clinic."
+    },
+    {
+      "id": "en-295",
+      "theme": "daily",
+      "charCount": 168,
+      "text": "He set the timer for rice and chopped vegetables while the radio played quiet jazz. The mailbox held a birthday card postmarked from a friend she had not seen in years."
+    },
+    {
+      "id": "en-296",
+      "theme": "daily",
+      "charCount": 166,
+      "text": "She returned library books and browsed the new shelf before choosing a gentle mystery. He greased the squeaky gate hinge so neighbors would not hear it swing at dawn."
+    },
+    {
+      "id": "en-297",
+      "theme": "daily",
+      "charCount": 164,
+      "text": "The tailor adjusted her coat hem in time for the cool week forecast on the news. She labeled two containers for the freezer: lentil soup and stew for busy evenings."
+    },
+    {
+      "id": "en-298",
+      "theme": "daily",
+      "charCount": 163,
+      "text": "He replaced the porch bulb so guests would find the steps safely after sunset. The pharmacy texted that prescriptions were ready, saving a second trip across town."
+    },
+    {
+      "id": "en-299",
+      "theme": "daily",
+      "charCount": 177,
+      "text": "She swept the entryway after sandy shoes came in from the beach trip with grandchildren. He sharpened kitchen knives on the whetstone before preparing Sunday’s roast vegetables."
+    },
+    {
+      "id": "en-300",
+      "theme": "daily",
+      "charCount": 161,
+      "text": "The clock chimed noon as she closed the ledger and walked to meet a friend for soup. She hung clean towels and opened the window an inch to freshen the bathroom."
+    },
+    {
+      "id": "en-301",
+      "theme": "daily",
+      "charCount": 168,
+      "text": "He backed the car out slowly, checking mirrors before the weekly grocery run. The dryer buzzed; she folded warm shirts while listening to a podcast about local history."
+    },
+    {
+      "id": "en-302",
+      "theme": "daily",
+      "charCount": 178,
+      "text": "She wrote checks for utilities and stamped envelopes before the afternoon mail pickup. He tightened the loose cabinet handle that had bothered him every time he reached for mugs."
+    },
+    {
+      "id": "en-303",
+      "theme": "daily",
+      "charCount": 183,
+      "text": "The neighbor’s cat visited the porch again, accepting a saucer of water before wandering off. She rotated the mattress helper bar and changed sheets while sunshine warmed the bedroom."
+    },
+    {
+      "id": "en-304",
+      "theme": "daily",
+      "charCount": 164,
+      "text": "He cleaned eyeglasses with soap and water, seeing the garden clearly again afterward. The oven timer beeped; almond cookies cooled on a rack smelling like holidays."
+    },
+    {
+      "id": "en-305",
+      "theme": "daily",
+      "charCount": 166,
+      "text": "She packed a small bag with book, water, and scarf for the afternoon in the park. He oiled the bicycle chain before riding to the barber for a trim and friendly chat."
+    },
+    {
+      "id": "en-306",
+      "theme": "daily",
+      "charCount": 167,
+      "text": "The washing machine finished; she hung delicates on the rack instead of using heat. She updated the wall calendar with dentist and book club dates for the whole month."
+    },
+    {
+      "id": "en-307",
+      "theme": "daily",
+      "charCount": 168,
+      "text": "He swept leaves from the drain so rain would flow freely during the coming storm. The doorbell rang; a package of seeds arrived for the spring planting she had ordered."
+    },
+    {
+      "id": "en-308",
+      "theme": "daily",
+      "charCount": 173,
+      "text": "She brewed decaf after dinner and sat with a blanket to watch the evening news calmly. He set out shoes and transit pass before bed so morning would start without searching."
+    },
+    {
+      "id": "en-309",
+      "theme": "daily",
+      "charCount": 179,
+      "text": "The kettle whistled; she poured chamomile and listened to crickets through the screen door. She wiped the kitchen counter with lemon soap, enjoying the clean scent before bedtime."
+    },
+    {
+      "id": "en-310",
+      "theme": "daily",
+      "charCount": 170,
+      "text": "He checked tomorrow’s weather and laid a light jacket on the chair by the door. The recycling truck came early; she carried bins to the curb in slippers and waved thanks."
+    },
+    {
+      "id": "en-311",
+      "theme": "daily",
+      "charCount": 175,
+      "text": "She mended a loose button on her cardigan while waiting for the soup to simmer. He downloaded the audiobook his daughter recommended and synced headphones for tomorrow’s walk."
+    },
+    {
+      "id": "en-312",
+      "theme": "daily",
+      "charCount": 190,
+      "text": "The morning paper landed softly on the doormat with headlines about the school’s music award. She paid the newspaper carrier’s holiday tip in an envelope marked with a handwritten thank-you."
+    },
+    {
+      "id": "en-313",
+      "theme": "habit",
+      "charCount": 179,
+      "text": "Every evening she wrote three good things that happened, no matter how small they seemed. He stretched ankles and calves at the sink while brushing teeth twice a day without fail."
+    },
+    {
+      "id": "en-314",
+      "theme": "habit",
+      "charCount": 178,
+      "text": "She kept shoes by the door so morning walks started the moment coffee finished brewing. He reviewed the next day’s appointments after supper, sleeping better with plans on paper."
+    },
+    {
+      "id": "en-315",
+      "theme": "habit",
+      "charCount": 163,
+      "text": "She drank a glass of water upon waking before reaching for coffee or toast. He paused to breathe deeply five times whenever traffic lights turned red on his drive."
+    },
+    {
+      "id": "en-316",
+      "theme": "habit",
+      "charCount": 173,
+      "text": "She said goodnight to neighbors on the elevator, building warmth in their small routine. He wiped phone and keys with sanitizer after grocery carts and clinic waiting rooms."
+    },
+    {
+      "id": "en-317",
+      "theme": "habit",
+      "charCount": 174,
+      "text": "She laid out clothes the night before church, humming hymns while folding a soft scarf. He walked around the block after lunch, rain or shine, with umbrella or sun hat ready."
+    },
+    {
+      "id": "en-318",
+      "theme": "habit",
+      "charCount": 175,
+      "text": "She flossed at the same time nightly, pairing the habit with a favorite radio program. He checked smoke alarm batteries when daylight saving time changed each spring and fall."
+    },
+    {
+      "id": "en-319",
+      "theme": "habit",
+      "charCount": 179,
+      "text": "She replaced walking shoes every six months, marking the date inside the tongue with pen. He thanked the bus driver when exiting, a small courtesy that brightened both their days."
+    },
+    {
+      "id": "en-320",
+      "theme": "habit",
+      "charCount": 167,
+      "text": "She kept a fruit bowl on the table so apples were easier to choose than cookies. He read ten pages before sleep instead of scrolling, finding dreams gentler afterward."
+    },
+    {
+      "id": "en-321",
+      "theme": "habit",
+      "charCount": 179,
+      "text": "She called one friend each Wednesday, rotating through a list taped inside the cabinet door. He weighed himself weekly on the same scale, recording numbers without harsh judgment."
+    },
+    {
+      "id": "en-322",
+      "theme": "habit",
+      "charCount": 163,
+      "text": "She packed a banana and nuts in her purse before any long appointment day. He stood up every hour during television shows, marching in place during advertisements."
+    },
+    {
+      "id": "en-323",
+      "theme": "habit",
+      "charCount": 168,
+      "text": "She smiled at her reflection while washing face, starting the day with kind self-talk. He donated spare coins each month to the jar by the register at the corner store."
+    },
+    {
+      "id": "en-324",
+      "theme": "habit",
+      "charCount": 185,
+      "text": "She reviewed bank statements on the first Monday, catching errors early with calm attention. He planted herbs in spring without fail, trusting the ritual more than perfect green thumbs."
+    },
+    {
+      "id": "en-325",
+      "theme": "habit",
+      "charCount": 176,
+      "text": "She kept a gratitude jar on the shelf, reading slips aloud when grandchildren visited. He tightened his posture when walking, shoulders back, chin level, feeling inches taller."
+    },
+    {
+      "id": "en-326",
+      "theme": "habit",
+      "charCount": 175,
+      "text": "She listened fully before replying in conversations, a habit friends noticed and appreciated. He ended each day by setting the coffee maker for tomorrow’s first welcoming cup."
+    },
+    {
+      "id": "en-327",
+      "theme": "habit",
+      "charCount": 180,
+      "text": "She wore her medical alert bracelet daily, comforted knowing help could find her quickly. He polished reading glasses each morning, clearing smudges before the newspaper headlines."
+    },
+    {
+      "id": "en-328",
+      "theme": "habit",
+      "charCount": 174,
+      "text": "She opened windows for five minutes daily, even in winter, to refresh stale indoor air. He wrote the date on opened jars in the fridge, reducing waste and mystery containers."
+    },
+    {
+      "id": "en-329",
+      "theme": "speech",
+      "charCount": 173,
+      "text": "She practiced tongue twisters slowly before the reading group, smiling at her own mistakes. He recorded his voice reading a story and listened back to catch mumbled endings."
+    },
+    {
+      "id": "en-330",
+      "theme": "speech",
+      "charCount": 176,
+      "text": "She stood before the mirror and counted aloud to twenty, pacing breath between numbers. He read road signs aloud while riding shotgun, keeping speech muscles active on errands."
+    },
+    {
+      "id": "en-331",
+      "theme": "speech",
+      "charCount": 176,
+      "text": "She joined the choir although nervous, trusting the director’s warm correction of vowels. He rehearsed his toast three times, timing pauses where laughter might naturally come."
+    },
+    {
+      "id": "en-332",
+      "theme": "speech",
+      "charCount": 175,
+      "text": "She exaggerated lip movements during morning exercises recommended by the speech therapist. He sang shower scales daily, enjoying how steam seemed to soften his morning voice."
+    },
+    {
+      "id": "en-333",
+      "theme": "speech",
+      "charCount": 181,
+      "text": "She read recipes aloud while cooking, naming spices clearly for her own attentive ears. He practiced introducing himself with full name and street, speaking slower than felt normal."
+    },
+    {
+      "id": "en-334",
+      "theme": "speech",
+      "charCount": 168,
+      "text": "She volunteered to read prayers at chapel, gaining confidence week by week. He used a straw to blow bubbles in water, strengthening breath support for longer sentences."
+    },
+    {
+      "id": "en-335",
+      "theme": "speech",
+      "charCount": 173,
+      "text": "She chatted with the barista about weather, choosing simple words on purpose for clarity. He read picture book dialogue in different voices for grandchildren on video calls."
+    },
+    {
+      "id": "en-336",
+      "theme": "speech",
+      "charCount": 166,
+      "text": "She mouthed lyrics silently during concerts, then hummed them softly on the walk home. He kept a list of tricky words like “statistics” and practiced them before bed."
+    },
+    {
+      "id": "en-337",
+      "theme": "speech",
+      "charCount": 182,
+      "text": "She attended accent reduction class willingly, wanting phone orders understood on first try. He counted ceiling tiles aloud during dental waits, turning anxiety into speech practice."
+    },
+    {
+      "id": "en-338",
+      "theme": "speech",
+      "charCount": 177,
+      "text": "She described aloud what she saw from the window, painting scenes with spoken color. He joined tabletop role-playing games where reading character lines built fluent expression."
+    },
+    {
+      "id": "en-339",
+      "theme": "speech",
+      "charCount": 192,
+      "text": "She slowed speech during arguments, choosing calm phrases that prevented hurtful misunderstandings. He read medication labels aloud to double-check doses before placing pills in the organizer."
+    },
+    {
+      "id": "en-340",
+      "theme": "speech",
+      "charCount": 178,
+      "text": "She practiced vowel sounds with an app that showed mouth shapes on the tablet screen. He greeted each shopkeeper by name, exercising clear consonants in brief friendly exchanges."
+    },
+    {
+      "id": "en-341",
+      "theme": "speech",
+      "charCount": 168,
+      "text": "She read poetry standing up, projecting voice toward the back of an empty room. He timed news segments with a metronome tap, learning steady rhythm for public comments."
+    },
+    {
+      "id": "en-342",
+      "theme": "speech",
+      "charCount": 183,
+      "text": "She whispered then spoke then shouted “hello” in the park, exploring volume control safely. He kept conversations going during walks by asking open questions about neighbors’ gardens."
+    },
+    {
+      "id": "en-343",
+      "theme": "speech",
+      "charCount": 184,
+      "text": "She sang lullabies to great-grandchildren, legacy and therapy woven into each soft verse. He thanked the speech pathologist with a handwritten note read aloud without a single stumble."
+    },
+    {
+      "id": "en-344",
+      "theme": "speech",
+      "charCount": 197,
+      "text": "She practiced pausing instead of filler words, letting silence feel comfortable between thoughts. He recorded neighborhood bird calls and named species aloud, merging hobby with articulation drill."
+    },
+    {
+      "id": "en-345",
+      "theme": "health",
+      "charCount": 168,
+      "text": "She noticed steady energy returned after adding a short nap and earlier bedtime. He felt less winded climbing stairs once daily walks lengthened by one block each week."
+    },
+    {
+      "id": "en-346",
+      "theme": "health",
+      "charCount": 169,
+      "text": "She kept blood pressure calm by reducing news consumption before evening rest. He recovered faster from a cold by resting, hydrating, and skipping strenuous garden work."
+    },
+    {
+      "id": "en-347",
+      "theme": "health",
+      "charCount": 178,
+      "text": "She asked the nurse to demonstrate inhaler technique again until each step felt automatic. He wore supportive shoes to the market and returned without the ankle ache from before."
+    },
+    {
+      "id": "en-348",
+      "theme": "health",
+      "charCount": 169,
+      "text": "She split heavy grocery bags evenly, protecting shoulders on the walk from the car. He elevated feet while reading after noticing mild swelling following long bus rides."
+    },
+    {
+      "id": "en-349",
+      "theme": "health",
+      "charCount": 167,
+      "text": "She chose soup and salad at the diner, feeling lighter than after heavy fried platters. He tracked water intake with tick marks on a card tucked in the kitchen drawer."
+    },
+    {
+      "id": "en-350",
+      "theme": "health",
+      "charCount": 178,
+      "text": "She scheduled mammogram and colon screening on the same month, checking them off together. He brought a friend to the cardiology appointment to remember advice about salt limits."
+    },
+    {
+      "id": "en-351",
+      "theme": "health",
+      "charCount": 161,
+      "text": "She warmed joints with a shower before gentle tai chi in the community room. He replaced the worn cane tip, gaining confidence on wet leaves outside the library."
+    },
+    {
+      "id": "en-352",
+      "theme": "health",
+      "charCount": 178,
+      "text": "She kept bedroom humidity comfortable with a small monitor, reducing dry throat at night. He took breaks from weeding to stretch back muscles and drink cool water from the porch."
+    },
+    {
+      "id": "en-353",
+      "theme": "health",
+      "charCount": 178,
+      "text": "She updated emergency contacts in her phone labeled ICE for quick first responder access. He felt reassured after the pharmacist reviewed all supplements alongside prescriptions."
+    },
+    {
+      "id": "en-354",
+      "theme": "health",
+      "charCount": 200,
+      "text": "She wore a hat and long sleeves gardening, avoiding sunburn on medications that increased sensitivity. He practiced getting up from the floor with a chair nearby, preparing for confident independence."
+    },
+    {
+      "id": "en-355",
+      "theme": "health",
+      "charCount": 166,
+      "text": "She chose decaf tea after lunch, sleeping through the night more often than before. He kept a cold pack ready in the freezer for occasional knee soreness after walks."
+    },
+    {
+      "id": "en-356",
+      "theme": "health",
+      "charCount": 177,
+      "text": "She laughed often at comedy shows, noticing tension leave shoulders during belly laughs. He joined a balance class after a near stumble, treating prevention as wise not fearful."
+    },
+    {
+      "id": "en-357",
+      "theme": "health",
+      "charCount": 183,
+      "text": "She ate breakfast before morning pills, following instructions printed on the pharmacy label. He washed hands thoroughly after transit rides during flu season without feeling anxious."
+    },
+    {
+      "id": "en-358",
+      "theme": "health",
+      "charCount": 175,
+      "text": "She kept fruit within reach on the counter, eating more and craving fewer late snacks. He thanked his body aloud after walks, a habit that made exercise feel like partnership."
+    },
+    {
+      "id": "en-359",
+      "theme": "health",
+      "charCount": 177,
+      "text": "She slept with phone charging across the room, reducing midnight scrolling and eye strain. He visited the dentist promptly when a tooth twinged, avoiding a bigger problem later."
+    },
+    {
+      "id": "en-360",
+      "theme": "health",
+      "charCount": 183,
+      "text": "She measured portions with a small scale until eyeballing servings became second nature. He felt proud showing the doctor his activity log, twelve weeks of consistent gentle movement."
     }
   ]
 }
