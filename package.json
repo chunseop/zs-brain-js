@@ -18,11 +18,10 @@
     "lint:eslint": "eslint . --fix --cache"
   },
   "dependencies": {
-    "@zs-brain/scoring": "workspace:*",
     "@capacitor/cli": "^8.4.1",
     "@capacitor/core": "^8.4.1",
     "@capacitor/preferences": "^8.0.1",
-    "localforage": "^1.10.0",
+    "@zs-brain/scoring": "workspace:*",
     "pinia": "^3.0.4",
     "vue": "^3.5.38",
     "vue-i18n": "^10.0.8",

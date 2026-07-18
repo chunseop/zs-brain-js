@@ -4,7 +4,6 @@ import { RouterView } from 'vue-router'
 
 import { useAppSettingsStore } from '@/app/settings/use-app-settings'
 import { setAppLocale } from '@/locales/locale'
-import AppToast from '@/core/ui/AppToast.vue'
 
 const settings = useAppSettingsStore()
 
@@ -37,5 +36,4 @@ onMounted(() => {
 
 <template>
   <RouterView />
-  <AppToast />
 </template>

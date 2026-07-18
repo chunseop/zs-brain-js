@@ -1,6 +1,6 @@
 # ZS-BRAIN (Vue 3)
 
-Web rewrite of the Flutter [zs-brain](https://github.com/) brain-training app. This repo mirrors the Flutter project's feature-first layout and routes while games and data layers are migrated incrementally.
+Simplified Vue rewrite of the Flutter [zs-brain](https://github.com/) brain-training app. Home screen offers two games: **Number Compare** and **Color Tap**, plus Settings.
 
 ## Stack
 
@@ -11,7 +11,6 @@ Web rewrite of the Flutter [zs-brain](https://github.com/) brain-training app. T
 | Routing | Vue Router |
 | i18n | vue-i18n (zh / en / ko) |
 | Preferences | @capacitor/preferences |
-| Structured storage | localforage (IndexedDB) |
 | Scoring | `packages/scoring` (TypeScript port of Flutter `packages/scoring`) |
 | Mobile packaging | Capacitor (iOS / Android) |
 
@@ -51,13 +50,13 @@ Configuration: [`capacitor.config.ts`](capacitor.config.ts) (`appId: com.zsbrain
 src/
   app/          # router, theme, settings store
   core/         # storage, auth stub
-  features/     # home, category, today, calendar, analytics, family, settings, games
-  locales/         # vue-i18n messages
+  features/     # home, settings, games (number-compare, color-tap)
+  locales/      # vue-i18n messages
 packages/
-  scoring/      # pure scoring logic (shared with games)
+  scoring/      # pure scoring logic
 ```
 
-Routes align with the Flutter app (`/`, `/training`, `/today-training`, `/calendar`, `/analytics`, `/family`, `/settings`, game paths).
+Routes: `/`, `/settings`, `/games/number-compare`, `/games/color-tap`.
 
 ## Mapping from Flutter
 
@@ -67,17 +66,8 @@ Routes align with the Flutter app (`/`, `/training`, `/today-training`, `/calend
 | `go_router` | Vue Router (`src/app/router`) |
 | `AppLocalizations` + ARB | `src/locales/*.json` |
 | `SharedPreferences` | Capacitor Preferences |
-| `Hive` | localforage |
 | `packages/scoring` (Dart) | `packages/scoring` (TS) |
 
 ## Senior mode
 
 Toggle in Settings (`长者模式`). When enabled, root `font-size` scales by 1.18 via `--font-scale` in [`src/app/theme/app-theme.css`](src/app/theme/app-theme.css).
-
-## Next migration steps
-
-1. Category catalog + `game_registry` metadata
-2. Simple games (number-compare, color-tap)
-3. Complex games (whack-a-mole, position-flip-board)
-4. Canvas runner (t-rex-runner)
-5. Today / calendar / analytics / family data layers

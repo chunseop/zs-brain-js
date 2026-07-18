@@ -1,31 +1,13 @@
 export const RouteNames = {
   home: 'home',
-  categoryTraining: 'categoryTraining',
-  categoryGames: 'categoryGames',
-  todayTraining: 'todayTraining',
-  calendar: 'calendar',
-  analytics: 'analytics',
-  family: 'family',
   settings: 'settings',
   numberCompare: 'numberCompare',
-  positionFlipBoard: 'positionFlipBoard',
   colorTap: 'colorTap',
-  whackAMole: 'whackAMole',
-  tRexRunner: 'tRexRunner',
 } as const
 
 export const RoutePaths = {
   home: '/',
-  categoryTraining: '/training',
-  categoryGames: '/training/:categoryId',
-  todayTraining: '/today-training',
-  calendar: '/calendar',
-  analytics: '/analytics',
-  family: '/family',
   settings: '/settings',
   numberCompare: '/games/number-compare',
-  positionFlipBoard: '/games/position-flip-board',
   colorTap: '/games/color-tap',
-  whackAMole: '/whack-a-mole',
-  tRexRunner: '/t-rex-runner',
 } as const

@@ -6,56 +6,22 @@ import { useRouter } from 'vue-router'
 import { RoutePaths } from '@/app/router/route-names'
 import { useAppSettingsStore } from '@/app/settings/use-app-settings'
 
-type HomeMenuId =
-  | 'todayTraining'
-  | 'startTraining'
-  | 'calendar'
-  | 'analytics'
-  | 'family'
-
-const menuItems: Array<{
-  id: HomeMenuId
-  icon: string
-  routePath: string
-  titleKey: string
-  descKey: string
-}> = [
+const menuItems = [
   {
-    id: 'todayTraining',
-    icon: '📅',
-    routePath: RoutePaths.todayTraining,
-    titleKey: 'homeMenuTodayTraining',
-    descKey: 'homeMenuTodayTrainingDesc',
+    id: 'numberCompare',
+    icon: '🔢',
+    routePath: RoutePaths.numberCompare,
+    titleKey: 'categoryMathGameNumberCompare',
+    descKey: 'numberCompareRuleHint',
   },
   {
-    id: 'startTraining',
-    icon: '🧩',
-    routePath: RoutePaths.categoryTraining,
-    titleKey: 'homeMenuCategoryTraining',
-    descKey: 'homeMenuCategoryTrainingDesc',
+    id: 'colorTap',
+    icon: '🎨',
+    routePath: RoutePaths.colorTap,
+    titleKey: 'categoryReactionGameColorTap',
+    descKey: 'colorTapSetupHint',
   },
-  {
-    id: 'calendar',
-    icon: '🗓️',
-    routePath: RoutePaths.calendar,
-    titleKey: 'homeMenuCalendar',
-    descKey: 'homeMenuCalendarDesc',
-  },
-  {
-    id: 'analytics',
-    icon: '📈',
-    routePath: RoutePaths.analytics,
-    titleKey: 'homeMenuAnalytics',
-    descKey: 'homeMenuAnalyticsDesc',
-  },
-  {
-    id: 'family',
-    icon: '👨‍👩‍👧',
-    routePath: RoutePaths.family,
-    titleKey: 'homeMenuFamily',
-    descKey: 'homeMenuFamilyDesc',
-  },
-]
+] as const
 
 const router = useRouter()
 const { t } = useI18n()

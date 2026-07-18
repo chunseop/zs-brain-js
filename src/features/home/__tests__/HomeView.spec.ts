@@ -26,14 +26,16 @@ function mountHome() {
 }
 
 describe('HomeView', () => {
-  it('shows the five main menu items in Chinese', () => {
+  it('shows the two simplified game entries in Chinese', () => {
     setActivePinia(createPinia())
     const wrapper = mountHome()
 
-    expect(wrapper.text()).toContain('今日训练')
-    expect(wrapper.text()).toContain('分类训练')
-    expect(wrapper.text()).toContain('训练日历')
-    expect(wrapper.text()).toContain('能力分析')
-    expect(wrapper.text()).toContain('家人中心')
+    expect(wrapper.text()).toContain('大小比较')
+    expect(wrapper.text()).toContain('颜色点击')
+    expect(wrapper.text()).not.toContain('今日训练')
+    expect(wrapper.text()).not.toContain('分类训练')
+    expect(wrapper.text()).not.toContain('训练日历')
+    expect(wrapper.text()).not.toContain('能力分析')
+    expect(wrapper.text()).not.toContain('家人中心')
   })
 })
