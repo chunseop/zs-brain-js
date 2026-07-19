@@ -9,7 +9,6 @@
   "colorTapStart": "开始",
   "colorTapSetupHint": "按提示点击对应颜色一侧。",
   "colorTapRuleHint": "点击{colorName}色",
-  "colorTapRuleChangeHint": "点击{fromName}色 → 点击{toName}色",
   "numberCompareRuleHint": "点击数值较大的一侧",
   "numberCompareStart": "开始",
   "numberCompareTimeLeftChip": "剩余 {seconds} 秒",

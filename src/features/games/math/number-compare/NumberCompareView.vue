@@ -13,6 +13,10 @@ import SplitChoiceGameShell from '@/features/games/shared/SplitChoiceGameShell.v
 import SplitChoiceFloatingHint from '@/features/games/shared/SplitChoiceFloatingHint.vue'
 import SplitChoiceSessionSummary from '@/features/games/shared/SplitChoiceSessionSummary.vue'
 import SplitChoiceTimerChip from '@/features/games/shared/SplitChoiceTimerChip.vue'
+import {
+  playCorrectFeedback,
+  playWrongFeedback,
+} from '@/features/games/shared/tap-feedback-sound'
 
 const SESSION_SECONDS = 50
 const STREAK_TO_LEVEL_UP = 5
@@ -93,6 +97,7 @@ function handleSideTap(tappedLeft: boolean) {
   sessionTotal.value += 1
 
   if (ok) {
+    void playCorrectFeedback()
     sessionCorrect.value += 1
     streak.value += 1
     if (streak.value >= STREAK_TO_LEVEL_UP && level.value < NumberCompareGenerator.maxLevel) {
@@ -104,6 +109,7 @@ function handleSideTap(tappedLeft: boolean) {
     return
   }
 
+  void playWrongFeedback()
   streak.value = 0
   wrongFlash.value = true
   wrongTappedLeft.value = tappedLeft

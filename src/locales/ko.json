@@ -9,7 +9,6 @@
   "colorTapStart": "시작",
   "colorTapSetupHint": "안내에 맞는 색 쪽을 누르세요.",
   "colorTapRuleHint": "{colorName}색을 누르세요",
-  "colorTapRuleChangeHint": "{fromName}색 → {toName}색을 누르세요",
   "numberCompareRuleHint": "값이 더 큰 쪽을 누르세요",
   "numberCompareStart": "시작",
   "numberCompareTimeLeftChip": "남은 {seconds}초",

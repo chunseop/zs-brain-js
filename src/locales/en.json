@@ -9,7 +9,6 @@
   "colorTapStart": "Start",
   "colorTapSetupHint": "Follow the hint and tap the matching color.",
   "colorTapRuleHint": "Tap {colorName}",
-  "colorTapRuleChangeHint": "Tap {fromName} → Tap {toName}",
   "numberCompareRuleHint": "Tap the larger value",
   "numberCompareStart": "Start",
   "numberCompareTimeLeftChip": "{seconds}s left",

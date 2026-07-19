@@ -12,13 +12,23 @@ import type {
   ColorTapRound,
 } from '@/features/games/reaction/color-tap/domain/color-tap-models'
 import { isCorrectTap } from '@/features/games/reaction/color-tap/domain/color-tap-models'
+import {
+  nextRuleHintAfterTap,
+  resetRuleHintForSessionStart,
+  resetRuleHintForSwitch,
+  type RuleHintState,
+} from '@/features/games/reaction/color-tap/domain/color-tap-rule-hint'
 import { planRuleSwitchElapsedSeconds } from '@/features/games/reaction/color-tap/domain/color-tap-rule-switches'
 import SplitChoiceGameShell from '@/features/games/shared/SplitChoiceGameShell.vue'
 import SplitChoiceFloatingHint from '@/features/games/shared/SplitChoiceFloatingHint.vue'
 import SplitChoiceSessionSummary from '@/features/games/shared/SplitChoiceSessionSummary.vue'
+import {
+  playCorrectFeedback,
+  playWrongFeedback,
+} from '@/features/games/shared/tap-feedback-sound'
 
 const SESSION_SECONDS = 45
-const WRONG_FEEDBACK_MS = 520
+const WRONG_FEEDBACK_MS = 1500
 
 type Phase = 'setup' | 'playing' | 'summary'
 
@@ -29,13 +39,11 @@ const settings = useAppSettingsStore()
 const generator = new ColorTapGenerator()
 const phase = ref<Phase>('setup')
 const instruction = ref<ColorTapInstruction | null>(null)
-const previousTargetColorId = ref<string | null>(null)
 const round = ref<ColorTapRound | null>(null)
 const secondsRemaining = ref(SESSION_SECONDS)
 const sessionTotal = ref(0)
 const sessionCorrect = ref(0)
-const showRuleHint = ref(false)
-const showRuleChange = ref(false)
+const ruleHint = ref<RuleHintState>(resetRuleHintForSessionStart())
 const wrongFlash = ref(false)
 const wrongTappedLeft = ref<boolean | null>(null)
 
@@ -53,12 +61,8 @@ const accuracyPercent = computed(() => {
 
 const ruleHintText = computed(() => {
   if (!instruction.value) return ''
-  const toName = colorTapColorLabel(t, instruction.value.targetColorId)
-  if (showRuleChange.value && previousTargetColorId.value) {
-    const fromName = colorTapColorLabel(t, previousTargetColorId.value)
-    return t('colorTapRuleChangeHint', { fromName, toName })
-  }
-  return t('colorTapRuleHint', { colorName: toName })
+  const colorName = colorTapColorLabel(t, instruction.value.targetColorId)
+  return t('colorTapRuleHint', { colorName })
 })
 
 function clearTimers() {
@@ -66,11 +70,6 @@ function clearTimers() {
   if (wrongTimer) clearTimeout(wrongTimer)
   countdownTimer = undefined
   wrongTimer = undefined
-}
-
-function hideRuleHint() {
-  showRuleHint.value = false
-  showRuleChange.value = false
 }
 
 function nextRound() {
@@ -81,10 +80,8 @@ function nextRound() {
 function switchRule() {
   if (!instruction.value) return
   const fromId = instruction.value.targetColorId
-  previousTargetColorId.value = fromId
   instruction.value = generator.randomInstructionDifferentFrom(fromId)
-  showRuleChange.value = true
-  showRuleHint.value = true
+  ruleHint.value = resetRuleHintForSwitch()
   wrongFlash.value = false
   wrongTappedLeft.value = null
   nextRound()
@@ -99,13 +96,11 @@ function startSession() {
   ruleSwitchAtElapsed = planRuleSwitchElapsedSeconds(SESSION_SECONDS)
   wrongFlash.value = false
   wrongTappedLeft.value = null
-  previousTargetColorId.value = null
-  showRuleChange.value = false
+  ruleHint.value = resetRuleHintForSessionStart()
 
   instruction.value = generator.randomInstruction()
   round.value = generator.next(instruction.value)
   phase.value = 'playing'
-  showRuleHint.value = true
 
   countdownTimer = setInterval(() => {
     elapsedSeconds += 1
@@ -130,13 +125,15 @@ function handleSideTap(tappedLeft: boolean) {
   const ok = isCorrectTap(currentRound, tappedLeft)
   sessionTotal.value += 1
   if (ok) sessionCorrect.value += 1
+  ruleHint.value = nextRuleHintAfterTap(ruleHint.value, ok)
 
   if (ok) {
-    if (showRuleHint.value) hideRuleHint()
+    void playCorrectFeedback()
     nextRound()
     return
   }
 
+  void playWrongFeedback()
   wrongFlash.value = true
   wrongTappedLeft.value = tappedLeft
   wrongTimer = setTimeout(() => {
@@ -200,7 +197,7 @@ onBeforeUnmount(() => {
       <SplitChoiceFloatingHint
         :text="ruleHintText"
         :senior-mode="seniorMode"
-        :visible="showRuleHint"
+        :visible="ruleHint.visible"
       />
 
       <div class="color-tap-panels" :class="{ 'color-tap-panels--flash': wrongFlash }">
